@@ -18,11 +18,11 @@ function ProductCard({ product }: { product: ImagePlaceholder }) {
       </div>
       <CardHeader>
         <CardTitle className="font-headline">{product.name}</CardTitle>
-        <CardDescription>{product.description}</CardDescription>
+        <CardDescription className="font-body">{product.description}</CardDescription>
       </CardHeader>
       <CardContent className="flex-grow" />
       <CardFooter className="flex justify-between items-center bg-secondary/30 p-4">
-        <p className="text-sm font-semibold text-muted-foreground">{product.price}</p>
+        <p className="text-sm font-semibold text-muted-foreground font-body">{product.price}</p>
         <Button asChild variant="link" className="text-primary hover:text-accent p-0 h-auto">
           <Link href="#contact">Inquire</Link>
         </Button>
@@ -40,7 +40,7 @@ export function ProductGallery() {
         <div className="flex flex-col items-center justify-center space-y-4 text-center mb-12">
           <div className="space-y-2">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl font-headline text-primary">Our Products</h2>
-            <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+            <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed font-body">
               Explore our range of eco-friendly and handcrafted items. All products can be customized for bulk and corporate orders.
             </p>
           </div>

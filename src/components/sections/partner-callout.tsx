@@ -7,7 +7,7 @@ export function PartnerCallout() {
       <div className="container flex flex-col items-center gap-4 px-4 text-center md:px-6">
         <div className="space-y-3">
           <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl font-headline text-primary">Join Our Movement</h2>
-          <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+          <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed font-body">
             Are you an artisan with a creative flair? Or a supporter of locally-made, handcrafted products? We invite you to join our supply chain or help us promote our cause.
           </p>
         </div>

@@ -26,7 +26,7 @@ export function Collaborations() {
         <div className="flex flex-col items-center justify-center space-y-4 text-center">
           <div className="space-y-2">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl font-headline text-primary">Our Impact & Collaborations</h2>
-            <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+            <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed font-body">
               We are proud to have worked with a diverse range of clients and partners who share our commitment to sustainability and community empowerment.
             </p>
           </div>
@@ -39,7 +39,7 @@ export function Collaborations() {
                 <CardTitle className="mt-4 font-headline">{item.name}</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-muted-foreground">{item.description}</p>
+                <p className="text-muted-foreground font-body">{item.description}</p>
               </CardContent>
             </Card>
           ))}

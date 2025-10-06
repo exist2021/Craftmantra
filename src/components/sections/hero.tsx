@@ -12,7 +12,7 @@ export function HeroSection() {
               <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none font-headline text-primary">
                 Touching Lives While Going Green
               </h1>
-              <p className="max-w-[600px] text-foreground md:text-xl">
+              <p className="max-w-[600px] text-foreground md:text-xl font-body">
                 Crafts Mantra is a for-profit social enterprise from Udupi, creating beautiful eco-friendly products. Founded in April 2018, we provide a platform for hidden creative talents, empowering local artisans and women.
               </p>
             </div>
@@ -30,14 +30,14 @@ export function HeroSection() {
                 <Leaf className="w-10 h-10 mt-1 text-accent" />
                 <div>
                     <h3 className="text-lg font-bold font-headline text-accent/90">For the Environment</h3>
-                    <p className="text-sm text-muted-foreground">We use locally sourced, naturally disintegrating, or reused materials to reduce our carbon footprint.</p>
+                    <p className="text-sm text-muted-foreground font-body">We use locally sourced, naturally disintegrating, or reused materials to reduce our carbon footprint.</p>
                 </div>
             </div>
              <div className="flex items-start space-x-4 p-4 rounded-lg bg-card/80">
                 <HandHeart className="w-10 h-10 mt-1 text-accent" />
                 <div>
                     <h3 className="text-lg font-bold font-headline text-accent/90">For the People</h3>
-                    <p className="text-sm text-muted-foreground">Our mission is to empower women and local artisans, providing them a platform to showcase their incredible skills.</p>
+                    <p className="text-sm text-muted-foreground font-body">Our mission is to empower women and local artisans, providing them a platform to showcase their incredible skills.</p>
                 </div>
             </div>
           </div>

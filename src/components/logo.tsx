@@ -16,7 +16,7 @@ export function Logo() {
         <span className="font-headline text-2xl font-bold leading-none text-primary">
           Crafts Mantra
         </span>
-        <span className="text-xs leading-tight text-accent">
+        <span className="font-body text-xs leading-tight text-accent">
           touching lives while going green
         </span>
       </div>
