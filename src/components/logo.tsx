@@ -3,15 +3,23 @@ import Image from 'next/image';
 
 export function Logo() {
   return (
-    <Link href="/" aria-label="Crafts Mantra Homepage">
+    <Link href="/" className="flex items-center gap-2" aria-label="Crafts Mantra Homepage">
       <Image
-        src="https://i.postimg.cc/cJ3HX0pg/IMG-6981.png"
-        alt="Crafts Mantra Logo"
-        width={140}
+        src="https://i.postimg.cc/vTgS621k/IMG-6983.jpg"
+        alt="Crafts Mantra Icon"
+        width={48}
         height={48}
-        className="w-auto h-10 md:h-12"
+        className="h-10 w-10 md:h-12 md:w-12 rounded-full"
         priority
       />
+      <div className="flex flex-col">
+        <span className="font-headline text-2xl font-bold leading-none text-primary">
+          Crafts Mantra
+        </span>
+        <span className="text-xs leading-tight text-muted-foreground">
+          touching lives while going green
+        </span>
+      </div>
     </Link>
   );
 }
