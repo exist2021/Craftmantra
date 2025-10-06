@@ -5,7 +5,7 @@ export function Logo() {
   return (
     <Link href="/" aria-label="Crafts Mantra Homepage">
       <Image
-        src="https://i.postimg.cc/yYRb15CX/IMG-6980.jpg"
+        src="https://i.postimg.cc/cJ3HX0pg/IMG-6981.png"
         alt="Crafts Mantra Logo"
         width={140}
         height={48}
