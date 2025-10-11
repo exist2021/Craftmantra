@@ -7,7 +7,7 @@ import Link from "next/link";
 function ProductCard({ product }: { product: ImagePlaceholder }) {
   return (
     <Card className="flex flex-col overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
-      <div className="relative aspect-video">
+      <div className="relative aspect-[4/3]">
         <Image
           src={product.imageUrl}
           alt={product.description}
