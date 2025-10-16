@@ -1,44 +1,80 @@
 import { Card, CardContent } from "@/components/ui/card";
-import Image from 'next/image';
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
+} from "@/components/ui/carousel";
+import { Avatar, AvatarFallback } from "@/components/ui/avatar";
+import { Quote } from "lucide-react";
 
-const clients = [
-    { name: "Client Logo 1", image: "https://picsum.photos/seed/logo1/200/100", imageHint: "corporate logo" },
-    { name: "Client Logo 2", image: "https://picsum.photos/seed/logo2/200/100", imageHint: "corporate logo" },
-    { name: "Client Logo 3", image: "https://picsum.photos/seed/logo3/200/100", imageHint: "corporate logo" },
-    { name: "Client Logo 4", image: "https://picsum.photos/seed/logo4/200/100", imageHint: "corporate logo" },
-    { name: "Client Logo 5", image: "https://picsum.photos/seed/logo5/200/100", imageHint: "corporate logo" },
-    { name: "Client Logo 6", image: "https://picsum.photos/seed/logo6/200/100", imageHint: "corporate logo" },
-]
+const testimonials = [
+  {
+    quote: "Thank you Renu and crafts Mantra for the wonderful customised bags. As always u come to you last minute but you never let me down ❤️ truly appreciate for all your support and being there for me and PRISM 😚🥰",
+    author: "PRISM Studio",
+    location: "Manipal",
+  },
+  {
+    quote: "Thank you Renu and crafts Mantra for the wonderful customised bags. As always u come to you last minute but you never let me down ❤️ truly appreciate for all your support and being there for me and PRISM 😚🥰",
+    author: "PRISM Studio",
+    location: "Manipal",
+  },
+  {
+    quote: "Thank you Renu and crafts Mantra for the wonderful customised bags. As always u come to you last minute but you never let me down ❤️ truly appreciate for all your support and being there for me and PRISM 😚🥰",
+    author: "PRISM Studio",
+    location: "Manipal",
+  },
+];
+
 
 export function TestimonialsSection() {
   return (
-    <section id="testimonials" className="w-full py-12 md:py-24 lg:py-32">
+    <section id="testimonials" className="w-full py-12 md:py-24 lg:py-32 bg-secondary/20">
       <div className="container px-4 md:px-6">
-        <div className="flex flex-col items-center justify-center space-y-4 text-center">
+        <div className="flex flex-col items-center justify-center space-y-4 text-center mb-12">
           <div className="space-y-4">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl font-headline text-primary">Building Relationships. Building Business.</h2>
             <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed font-body">
-              Our success mantra is simple: Build Relationships and Business will follow! Crafts Mantra is first a business with a heart, where people and ethics count more than numbers or profits. The list of our clients reads like a "who’s who" list. We have produced in bulk for institutions, organizations, and corporates.
+              Our success mantra is simple: Build Relationships and Business will follow! Here’s what some of our valued partners have to say about their experience working with us.
             </p>
           </div>
         </div>
-        <div className="mt-12">
-            <p className="text-center font-bold text-lg font-headline text-muted-foreground mb-8">A Few of Our Valued Clients</p>
-            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-8 items-center">
-                {clients.map((client) => (
-                    <div key={client.name} className="flex justify-center">
-                         <Image 
-                            src={client.image}
-                            alt={client.name}
-                            width={200}
-                            height={100}
-                            className="object-contain grayscale hover:grayscale-0 transition-all"
-                            data-ai-hint={client.imageHint}
-                         />
-                    </div>
-                ))}
-            </div>
-        </div>
+        
+        <Carousel
+          opts={{
+            align: "start",
+            loop: true,
+          }}
+          className="w-full max-w-4xl mx-auto"
+        >
+          <CarouselContent>
+            {testimonials.map((testimonial, index) => (
+              <CarouselItem key={index} className="md:basis-1/2">
+                <div className="p-4">
+                  <Card className="h-full flex flex-col">
+                    <CardContent className="p-6 flex-grow flex flex-col items-center text-center">
+                      <Quote className="w-12 h-12 text-accent/50 mb-4" />
+                      <p className="text-muted-foreground font-body italic mb-6 flex-grow">"{testimonial.quote}"</p>
+                      <div className="flex items-center gap-4">
+                        <Avatar>
+                          <AvatarFallback>{testimonial.author.charAt(0)}</AvatarFallback>
+                        </Avatar>
+                        <div>
+                          <p className="font-bold font-headline text-primary">{testimonial.author}</p>
+                          <p className="text-sm text-muted-foreground font-body">{testimonial.location}</p>
+                        </div>
+                      </div>
+                    </CardContent>
+                  </Card>
+                </div>
+              </CarouselItem>
+            ))}
+          </CarouselContent>
+          <CarouselPrevious />
+          <CarouselNext />
+        </Carousel>
+
       </div>
     </section>
   );
