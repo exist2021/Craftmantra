@@ -1,27 +1,37 @@
+
 import Image from 'next/image';
+import { Card, CardContent } from "@/components/ui/card";
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
+} from "@/components/ui/carousel";
 
 const events = [
   {
+    title: "Founder at an Event",
+    image: "https://i.postimg.cc/65SXk09T/IMG-7021.jpg",
+    imageHint: "founder at event"
+  },
+  {
     title: "Exhibitions & Fairs",
-    description: "Showcasing our eco-friendly products at various prestigious events.",
     image: "https://picsum.photos/seed/exhibition/600/400",
     imageHint: "exhibition stall"
   },
   {
     title: "Store Opening",
-    description: "The launch of our retail space to bring sustainable products directly to you.",
     image: "https://picsum.photos/seed/storeopening/600/400",
     imageHint: "retail store interior"
   },
   {
     title: "Artisan Workshops",
-    description: "Empowering local creators with skill-building and innovation sessions.",
     image: "https://picsum.photos/seed/workshop/600/400",
     imageHint: "pottery making"
   },
   {
     title: "Corporate Collaborations",
-    description: "Partnering with businesses to provide sustainable corporate gifting solutions.",
     image: "https://picsum.photos/seed/corporate/600/400",
     imageHint: "corporate meeting"
   },
@@ -39,24 +49,38 @@ export function ImpactSection() {
             </p>
           </div>
         </div>
-        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
-          {events.map((event) => (
-            <div key={event.title} className="group relative flex flex-col overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
-               <Image
-                src={event.image}
-                alt={event.title}
-                width={600}
-                height={400}
-                className="aspect-video w-full object-cover transition-transform duration-300 group-hover:scale-105"
-                data-ai-hint={event.imageHint}
-              />
-              <div className="flex flex-1 flex-col justify-end bg-gradient-to-t from-black/70 to-transparent p-4">
-                <h3 className="text-lg font-bold text-primary-foreground font-headline">{event.title}</h3>
-                <p className="text-sm text-primary-foreground/80 font-body">{event.description}</p>
-              </div>
-            </div>
-          ))}
-        </div>
+        <Carousel
+          opts={{
+            align: "start",
+            loop: true,
+          }}
+          className="w-full max-w-4xl mx-auto"
+        >
+          <CarouselContent>
+            {events.map((event, index) => (
+              <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/3">
+                <div className="p-1">
+                  <Card>
+                    <CardContent className="flex aspect-square items-center justify-center p-0 relative overflow-hidden rounded-lg">
+                       <Image
+                          src={event.image}
+                          alt={event.title}
+                          fill
+                          className="object-cover transition-transform duration-300 group-hover:scale-105"
+                          data-ai-hint={event.imageHint}
+                        />
+                         <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/70 to-transparent p-4">
+                            <h3 className="text-lg font-bold text-primary-foreground font-headline">{event.title}</h3>
+                         </div>
+                    </CardContent>
+                  </Card>
+                </div>
+              </CarouselItem>
+            ))}
+          </CarouselContent>
+          <CarouselPrevious />
+          <CarouselNext />
+        </Carousel>
       </div>
     </section>
   );
