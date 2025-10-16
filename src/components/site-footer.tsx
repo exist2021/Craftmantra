@@ -67,7 +67,7 @@ export function SiteFooter() {
               </li>
               <li className="flex items-start space-x-2">
                 <MapPin className="h-5 w-5 text-accent mt-1" />
-                <a href="https://share.google/gAJMesRYGz3p58Bgl" target="_blank" rel="noopener noreferrer" className="hover:text-accent transition-colors">
+                <a href="https://share.google/EWCf5cJ6me4h7PRSn" target="_blank" rel="noopener noreferrer" className="hover:text-accent transition-colors">
                   Udupi, Karnataka, India
                 </a>
               </li>
