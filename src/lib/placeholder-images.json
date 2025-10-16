@@ -39,7 +39,13 @@
       "name": "Home & Decor",
       "description": "Eco-conscious home decor and earthen cookware made from natural materials.",
       "price": "Varies by item",
-      "imageUrls": ["https://i.postimg.cc/Vkh46TYd/IMG-7016.jpg"],
+      "imageUrls": [
+        "https://i.postimg.cc/7GsQHNR5/098af7f8-9c8c-45d1-925c-340f0fd0c44f.jpg",
+        "https://i.postimg.cc/dkHSs9f1/604caddb-0e6b-42b2-bfc8-1d191d38375f.jpg",
+        "https://i.postimg.cc/sQ60jJLv/e4ce6917-e798-4dfa-8cd0-4dc2ff8f9eda.jpg",
+        "https://i.postimg.cc/k61hJyHV/ffbe57f4-8ede-46ed-8f74-4baa3e9d8b7b.jpg",
+        "https://i.postimg.cc/0M2B14VR/IMG-7430.jpg"
+      ],
       "imageHint": "home decor",
       "category": "Decor"
     },
