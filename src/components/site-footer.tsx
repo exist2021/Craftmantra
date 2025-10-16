@@ -60,15 +60,12 @@ export function SiteFooter() {
               </li>
               <li className="flex items-center space-x-2">
                 <Phone className="h-5 w-5 text-accent" />
-                <div className="flex flex-col">
-                  <a href="tel:6362571412" className="hover:text-accent transition-colors">6362571412</a>
-                  <a href="tel:9880197440" className="hover:text-accent transition-colors">9880197440</a>
-                </div>
+                <a href="tel:+916362571412" className="hover:text-accent transition-colors">+91 6362 571 412</a>
               </li>
               <li className="flex items-start space-x-2">
-                <MapPin className="h-5 w-5 text-accent mt-1 flex-shrink-0" />
-                <a href="https://share.google/EWCf5cJ6me4h7PRSn" target="_blank" rel="noopener noreferrer" className="hover:text-accent transition-colors">
-                  Crafts Mantra Store, Udupi, Karnataka, India
+                <a href="https://share.google/EWCf5cJ6me4h7PRSn" target="_blank" rel="noopener noreferrer" className="hover:text-accent transition-colors flex items-center space-x-2">
+                  <MapPin className="h-5 w-5 text-accent mt-1 flex-shrink-0" />
+                  <span>Crafts Mantra Store, Udupi, Karnataka, India</span>
                 </a>
               </li>
             </ul>
