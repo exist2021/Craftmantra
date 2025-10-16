@@ -1,14 +1,13 @@
 import { Facebook, Instagram, Linkedin, Mail, Phone } from "lucide-react";
 import { Logo } from "./logo";
 import Link from "next/link";
-import { Button } from "./ui/button";
 
 export function SiteFooter() {
   return (
     <footer id="contact" className="bg-secondary text-secondary-foreground py-12 md:py-16">
-      <div className="container mx-auto px-4 md:px-6 text-center">
+      <div className="container mx-auto px-4 md:px-6">
         
-        <div className="max-w-4xl mx-auto">
+        <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl font-headline text-primary">Collaborate with Crafts Mantra</h2>
           <p className="mt-4 text-muted-foreground md:text-lg/relaxed font-body">
             Whether you are looking for customized eco-friendly products or seeking a platform for your creations, we are ready to connect. We seek the support of individuals, corporates, organizations, and institutions for promoting our locally made, eco-friendly customized handcrafted products.
@@ -18,9 +17,14 @@ export function SiteFooter() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12 text-left">
           <div className="flex flex-col space-y-4 items-center md:items-start">
             <Logo />
-            <p className="max-w-xs font-body text-center md:text-left">
-              Vision: To create a sustainable world where every gift is not just creative but touches lives, empowers communities, promotes culture and nurtures the planet.
-            </p>
+             <div className="space-y-4 text-center md:text-left">
+                <p className="font-body text-sm">
+                  <span className="font-bold text-primary/80">Vision:</span> To create a sustainable world where every gift is not just creative but touches lives, empowers communities, promotes culture and nurtures the planet.
+                </p>
+                 <p className="font-body text-sm">
+                  <span className="font-bold text-primary/80">Mission:</span> To redefine the gifting culture by offering meaningful, eco-friendly products that reflect care—for people, for communities, and for the environment.
+                </p>
+            </div>
           </div>
 
           <div className="space-y-4 flex flex-col items-center md:items-start">
