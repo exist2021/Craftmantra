@@ -9,10 +9,7 @@ import { WhatsAppBanner } from '@/components/whatsapp-banner';
 export default function Home() {
   return (
     <div className="flex flex-col min-h-dvh bg-background">
-      <div className="sticky top-0 z-50">
-        <WhatsAppBanner />
-        <SiteHeader />
-      </div>
+      <SiteHeader />
       <main className="flex-1">
         <HeroSection />
         <ProductGallery />
@@ -20,6 +17,7 @@ export default function Home() {
         <Collaborations />
       </main>
       <SiteFooter />
+      <WhatsAppBanner />
     </div>
   );
 }

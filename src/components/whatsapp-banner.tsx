@@ -11,7 +11,7 @@ const WhatsAppIcon = () => (
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
-      className="h-5 w-5 mr-2"
+      className="h-8 w-8"
     >
       <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z" />
     </svg>
@@ -27,10 +27,10 @@ export function WhatsAppBanner() {
       href={whatsappUrl}
       target="_blank"
       rel="noopener noreferrer"
-      className="bg-accent text-accent-foreground flex items-center justify-center p-3 text-sm font-medium text-center hover:bg-accent/90 transition-colors"
+      className="fixed bottom-6 right-6 z-50 flex h-16 w-16 items-center justify-center rounded-full bg-green-600 text-white shadow-lg transition-transform hover:scale-110 focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-offset-2"
+      aria-label="Message us on WhatsApp"
     >
       <WhatsAppIcon />
-      <span>Click here to message us on WhatsApp for inquiries!</span>
     </Link>
   );
 }
