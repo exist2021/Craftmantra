@@ -24,6 +24,11 @@ const events = [
     title: "Exhibition",
     image: "https://i.postimg.cc/FKmDDDPZ/IMG-7036.webp",
     imageHint: "exhibition stall"
+  },
+  {
+    title: "With Anil Kumble",
+    image: "https://i.postimg.cc/Nfn06n0t/IMG-7037.webp",
+    imageHint: "Anil Kumble"
   }
 ];
 
