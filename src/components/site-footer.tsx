@@ -1,8 +1,30 @@
-import { Facebook, Instagram, Linkedin, Mail, Phone } from "lucide-react";
+
+import { Facebook, Instagram, Linkedin, Mail, MapPin, Phone } from "lucide-react";
 import { Logo } from "./logo";
 import Link from "next/link";
 
+const WhatsAppIcon = (props: React.SVGProps<SVGSVGElement>) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="24"
+    height="24"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    strokeWidth="2"
+    strokeLinecap="round"
+    strokeLinejoin="round"
+    {...props}
+  >
+    <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z" />
+  </svg>
+);
+
+
 export function SiteFooter() {
+  const phoneNumber = "916362571412";
+  const whatsappUrl = `https://wa.me/${phoneNumber}`;
+
   return (
     <footer id="contact" className="bg-secondary text-secondary-foreground py-12 md:py-16">
       <div className="container mx-auto px-4 md:px-6">
@@ -43,7 +65,12 @@ export function SiteFooter() {
                   <a href="tel:9880197440" className="hover:text-accent transition-colors">9880197440</a>
                 </div>
               </li>
-              <li className="font-body text-sm">Udupi, Karnataka, India</li>
+              <li className="flex items-start space-x-2">
+                <MapPin className="h-5 w-5 text-accent mt-1" />
+                <a href="https://share.google/gAJMesRYGz3p58Bgl" target="_blank" rel="noopener noreferrer" className="hover:text-accent transition-colors">
+                  Udupi, Karnataka, India
+                </a>
+              </li>
             </ul>
           </div>
 
@@ -53,11 +80,14 @@ export function SiteFooter() {
               <Link href="#" aria-label="Facebook">
                 <Facebook className="h-6 w-6 hover:text-accent transition-colors" />
               </Link>
-              <Link href="#" aria-label="Instagram">
+              <Link href="https://www.instagram.com/craftmantra.gifting?igsh=MWIzZHh6Y2diNDkwbQ==" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
                 <Instagram className="h-6 w-6 hover:text-accent transition-colors" />
               </Link>
               <Link href="#" aria-label="LinkedIn">
                 <Linkedin className="h-6 w-6 hover:text-accent transition-colors" />
+              </Link>
+              <Link href={whatsappUrl} target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
+                <WhatsAppIcon className="h-6 w-6 hover:text-accent transition-colors" />
               </Link>
             </div>
           </div>
