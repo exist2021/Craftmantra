@@ -5,6 +5,7 @@ import { PlaceHolderImages, type ImagePlaceholder } from "@/lib/placeholder-imag
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "../ui/button";
 import Link from "next/link";
+import { Badge } from "../ui/badge";
 
 const WhatsAppIcon = (props: React.SVGProps<SVGSVGElement>) => (
   <svg
@@ -39,6 +40,7 @@ function ProductCard({ product }: { product: ImagePlaceholder }) {
           className="object-cover"
           data-ai-hint={product.imageHint}
         />
+         <Badge variant="secondary" className="absolute top-2 right-2">{product.category}</Badge>
       </div>
       <CardHeader>
         <CardTitle className="font-headline">{product.name}</CardTitle>
@@ -66,9 +68,9 @@ export function ProductGallery() {
       <div className="container px-4 md:px-6">
         <div className="flex flex-col items-center justify-center space-y-4 text-center mb-12">
           <div className="space-y-2">
-            <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl font-headline text-primary">Our Products</h2>
+            <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl font-headline text-primary">Our Products: Handcrafted, Sustainable, Unique</h2>
             <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed font-body">
-              Explore our range of eco-friendly and handcrafted items. All products can be customized for bulk and corporate orders.
+              We showcase bags, folders, mementos, earthen cookware, home décor, apparels, accessories, trinkets, and trivia displayed on upcycled shelves. Our product range is made-to-order and caters to personal or professional event needs.
             </p>
           </div>
         </div>
@@ -78,6 +80,17 @@ export function ProductGallery() {
             <ProductCard key={product.id} product={product} />
           ))}
         </div>
+
+        <div className="mt-20 text-center bg-secondary/50 p-8 rounded-lg">
+           <h3 className="text-2xl font-bold tracking-tighter sm:text-3xl font-headline text-primary">Join Us – Become a CoCreator</h3>
+           <p className="max-w-[700px] mx-auto mt-4 text-muted-foreground md:text-lg/relaxed font-body">
+            We invite anyone and everyone with a creative flair to be part of our supply chain. If you are a local, home-based, small-scale artisan—a large number being women—you are the true heart of Crafts Mantra. We offer a platform to promote your creativity and bring your products to the mainstream economy.
+           </p>
+           <Button asChild className="mt-6">
+            <Link href="#contact">Get in Touch</Link>
+           </Button>
+        </div>
+
       </div>
     </section>
   );

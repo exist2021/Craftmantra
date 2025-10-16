@@ -8,6 +8,7 @@ const navLinks = [
   { href: "#about", label: "About" },
   { href: "#products", label: "Products" },
   { href: "#impact", label: "Impact" },
+  { href: "#testimonials", label: "Testimonials" },
   { href: "#contact", label: "Contact" },
 ];
 
@@ -21,7 +22,7 @@ export function SiteHeader() {
         <div className="flex flex-1 items-center justify-end space-x-2">
           <nav className="hidden md:flex items-center space-x-6 text-sm font-medium">
             {navLinks.map(({ href, label }) => (
-              <Link key={label} href={href} className="transition-colors text-foreground/60 hover:text-foreground/80">
+              <Link key={label} href={href} className="transition-colors text-foreground/60 hover:text-foreground/80 font-headline">
                 {label}
               </Link>
             ))}
@@ -40,7 +41,7 @@ export function SiteHeader() {
                 </div>
                 <nav className="grid gap-6 text-lg font-medium p-4">
                 {navLinks.map(({ href, label }) => (
-                  <Link key={label} href={href} className="transition-colors text-foreground/60 hover:text-foreground/80">
+                  <Link key={label} href={href} className="transition-colors text-foreground/60 hover:text-foreground/80 font-headline">
                     {label}
                   </Link>
                 ))}

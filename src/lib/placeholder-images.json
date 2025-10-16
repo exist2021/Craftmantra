@@ -11,8 +11,8 @@
     },
     {
       "id": "memento-1",
-      "name": "Handcrafted Mementos",
-      "description": "Unique wooden and terracotta mementos, celebrating local artistry.",
+      "name": "Gifts & Mementos",
+      "description": "Unique wooden and terracotta mementos, celebrating local artistry and culture.",
       "price": "Inquire for bulk orders",
       "imageUrl": "https://i.postimg.cc/rpyFYn66/IMG-7008.jpg",
       "imageHint": "wood carving",
@@ -20,17 +20,17 @@
     },
     {
       "id": "accessories-1",
-      "name": "Accessories & Stationery",
-      "description": "Customized stationery and accessories for corporate and personal use.",
+      "name": "Corporate & Institutional",
+      "description": "Conference kits, cloth banners, T-shirts, and uniforms, often produced in bulk for clients.",
       "price": "Inquire for custom pricing",
       "imageUrl": "https://i.postimg.cc/1zKMyzYV/IMG-7014.jpg",
-      "imageHint": "stationery",
-      "category": "Accessories & Stationery"
+      "imageHint": "conference kit",
+      "category": "Corporate"
     },
     {
       "id": "decor-1",
-      "name": "Sustainable Decor Items",
-      "description": "Eco-conscious home and office decor made from natural materials.",
+      "name": "Home & Decor",
+      "description": "Eco-conscious home decor and earthen cookware made from natural materials.",
       "price": "Varies by item",
       "imageUrl": "https://i.postimg.cc/Vkh46TYd/IMG-7016.jpg",
       "imageHint": "home decor",
@@ -38,8 +38,8 @@
     },
     {
       "id": "tshirt-1",
-      "name": "Custom Apparel",
-      "description": "Printed T-shirts and apparel for events, teams, and organizations.",
+      "name": "Apparel",
+      "description": "Printed T-shirts and custom apparel for events, teams, and organizations.",
       "price": "Inquire for bulk orders",
       "imageUrl": "https://i.postimg.cc/44KfHHvD/IMG-7015.jpg",
       "imageHint": "t-shirt",
@@ -47,11 +47,11 @@
     },
     {
       "id": "kit-1",
-      "name": "Souvenir & Conference Kits",
-      "description": "Curated eco-friendly kits including notepads, pens, and bags for your events.",
+      "name": "Souvenirs & Handicrafts",
+      "description": "Curated eco-friendly kits and handicrafts representing local culture.",
       "price": "Inquire for custom kits",
       "imageUrl": "https://i.postimg.cc/4dkZRBqT/IMG-7013.jpg",
-      "imageHint": "conference kit",
+      "imageHint": "souvenir",
       "category": "Souvenirs"
     }
   ]
