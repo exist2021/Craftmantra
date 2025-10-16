@@ -66,9 +66,9 @@ export function SiteFooter() {
                 </div>
               </li>
               <li className="flex items-start space-x-2">
-                <MapPin className="h-5 w-5 text-accent mt-1" />
+                <MapPin className="h-5 w-5 text-accent mt-1 flex-shrink-0" />
                 <a href="https://share.google/EWCf5cJ6me4h7PRSn" target="_blank" rel="noopener noreferrer" className="hover:text-accent transition-colors">
-                  Udupi, Karnataka, India
+                  Crafts Mantra Store, Udupi, Karnataka, India
                 </a>
               </li>
             </ul>
@@ -92,6 +92,24 @@ export function SiteFooter() {
             </div>
           </div>
         </div>
+
+        <div className="mt-12">
+            <h3 className="text-2xl font-bold tracking-tighter sm:text-3xl font-headline text-primary text-center mb-6">Our Location</h3>
+            <div className="aspect-video w-full max-w-4xl mx-auto bg-muted rounded-lg overflow-hidden border border-border shadow-lg">
+              {/*
+                Please provide the Google Maps embed code (iframe).
+                1. Go to https://share.google/EWCf5cJ6me4h7PRSn
+                2. Click "Share"
+                3. Click "Embed a map"
+                4. Copy the HTML and paste it here, replacing this comment block.
+              */}
+              <div className="w-full h-full flex items-center justify-center text-muted-foreground">
+                Google Map will be embedded here.
+              </div>
+            </div>
+        </div>
+
+
         <div className="mt-12 border-t border-muted-foreground/20 pt-6 text-center text-sm text-muted-foreground font-body">
           <p className="font-bold">Renu Jayaram’s Success Mantra: Build Relationships and Business will follow!</p>
           <p className="mt-2">&copy; {new Date().getFullYear()} Crafts Mantra. All Rights Reserved.</p>
