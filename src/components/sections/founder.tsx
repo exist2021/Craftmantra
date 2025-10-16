@@ -15,7 +15,7 @@ export function FounderSection() {
           </div>
           <div className="flex items-center justify-center">
             <Image
-              src="https://i.postimg.cc/65SXk09T/IMG-7021.jpg"
+              src="https://i.postimg.cc/kG78Kpwk/IMG-7034.webp"
               alt="Renu Jayaram, Founder of Crafts Mantra"
               width={600}
               height={600}
