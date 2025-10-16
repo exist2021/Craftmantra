@@ -19,13 +19,13 @@
       "category": "Mementos"
     },
     {
-      "id": "handicraft-1",
-      "name": "Artisanal Handicrafts",
-      "description": "A wide range of traditional crafts from talented local artisans in Udupi.",
-      "price": "Varies by item",
+      "id": "accessories-1",
+      "name": "Accessories & Stationery",
+      "description": "Customized stationery and accessories for corporate and personal use.",
+      "price": "Inquire for custom pricing",
       "imageUrl": "https://i.postimg.cc/1zKMyzYV/IMG-7014.jpg",
-      "imageHint": "pottery",
-      "category": "Souvenirs"
+      "imageHint": "stationery",
+      "category": "Accessories & Stationery"
     },
     {
       "id": "decor-1",
@@ -52,7 +52,7 @@
       "price": "Inquire for custom kits",
       "imageUrl": "https://i.postimg.cc/4dkZRBqT/IMG-7013.jpg",
       "imageHint": "conference kit",
-      "category": "Accessories & Stationery"
+      "category": "Souvenirs"
     }
   ]
 }
