@@ -35,8 +35,8 @@ export function AboutSection() {
           </div>
         </div>
 
-        <div className="grid gap-10 lg:grid-cols-2 lg:gap-16 items-center mt-16 lg:mt-24">
-            <div className="space-y-4 lg:col-start-2">
+        <div className="grid gap-10 lg:grid-cols-1 lg:gap-16 items-center mt-16 lg:mt-24">
+            <div className="space-y-4">
                 <h3 className="text-2xl font-bold tracking-tighter sm:text-3xl font-headline text-primary/90">
                 The Birth of Crafts Mantra
                 </h3>
