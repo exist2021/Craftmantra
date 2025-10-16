@@ -54,8 +54,8 @@ export function SiteFooter() {
             <ul className="space-y-2 font-body">
               <li className="flex items-center space-x-2">
                 <Mail className="h-5 w-5 text-accent" />
-                <a href="mailto:craftsmantrastore@gmail.com" className="hover:text-accent transition-colors">
-                  craftsmantrastore@gmail.com
+                <a href="mailto:craftsmantra.designs@gmail.com" className="hover:text-accent transition-colors">
+                  craftsmantra.designs@gmail.com
                 </a>
               </li>
               <li className="flex items-center space-x-2">
