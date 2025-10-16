@@ -16,6 +16,11 @@ const events = [
     imageHint: "founder at event"
   },
   {
+    title: "Founder Showcasing Products",
+    image: "https://i.postimg.cc/qB8gdwQY/IMG-7035.webp",
+    imageHint: "founder with products"
+  },
+  {
     title: "Exhibitions & Fairs",
     image: "https://picsum.photos/seed/exhibition/600/400",
     imageHint: "exhibition stall"
