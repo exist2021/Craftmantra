@@ -6,6 +6,13 @@ import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle }
 import { Button } from "../ui/button";
 import Link from "next/link";
 import { Badge } from "../ui/badge";
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
+} from "@/components/ui/carousel";
 
 const WhatsAppIcon = (props: React.SVGProps<SVGSVGElement>) => (
   <svg
@@ -32,16 +39,32 @@ function ProductCard({ product }: { product: ImagePlaceholder }) {
 
   return (
     <Card className="flex flex-col overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
-      <div className="relative aspect-[3/4]">
-        <Image
-          src={product.imageUrl}
-          alt={product.description}
-          fill
-          className="object-cover"
-          data-ai-hint={product.imageHint}
-        />
-         <Badge variant="secondary" className="absolute top-2 right-2">{product.category}</Badge>
-      </div>
+      <Carousel className="w-full">
+        <CarouselContent>
+          {product.imageUrls.map((url, index) => (
+            <CarouselItem key={index}>
+              <div className="relative aspect-[3/4]">
+                <Image
+                  src={url}
+                  alt={`${product.name} image ${index + 1}`}
+                  fill
+                  className="object-cover"
+                  data-ai-hint={product.imageHint}
+                />
+              </div>
+            </CarouselItem>
+          ))}
+        </CarouselContent>
+        {product.imageUrls.length > 1 && (
+          <>
+            <CarouselPrevious className="absolute left-2 top-1/2 -translate-y-1/2" />
+            <CarouselNext className="absolute right-2 top-1/2 -translate-y-1/2" />
+          </>
+        )}
+      </Carousel>
+
+      <Badge variant="secondary" className="absolute top-2 right-2 z-10">{product.category}</Badge>
+      
       <CardHeader>
         <CardTitle className="font-headline">{product.name}</CardTitle>
         <CardDescription className="font-body">{product.description}</CardDescription>

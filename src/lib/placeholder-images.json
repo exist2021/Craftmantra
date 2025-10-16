@@ -5,7 +5,11 @@
       "name": "Eco-Friendly Bags",
       "description": "Customizable jute and cotton bags, perfect for sustainable corporate gifting.",
       "price": "Inquire for custom pricing",
-      "imageUrl": "https://i.postimg.cc/52hSBCDL/IMG-7009.jpg",
+      "imageUrls": [
+        "https://i.postimg.cc/fLCbh9LT/IMG-7026.jpg",
+        "https://i.postimg.cc/3w6s0rcc/IMG-7027.jpg",
+        "https://i.postimg.cc/VLQbBjtf/IMG-7029.jpg"
+      ],
       "imageHint": "tote bag",
       "category": "Eco Bags"
     },
@@ -14,7 +18,7 @@
       "name": "Gifts & Mementos",
       "description": "Unique wooden and terracotta mementos, celebrating local artistry and culture.",
       "price": "Inquire for bulk orders",
-      "imageUrl": "https://i.postimg.cc/rpyFYn66/IMG-7008.jpg",
+      "imageUrls": ["https://i.postimg.cc/rpyFYn66/IMG-7008.jpg"],
       "imageHint": "wood carving",
       "category": "Mementos"
     },
@@ -23,7 +27,7 @@
       "name": "Corporate & Institutional",
       "description": "Conference kits, cloth banners, T-shirts, and uniforms, often produced in bulk for clients.",
       "price": "Inquire for custom pricing",
-      "imageUrl": "https://i.postimg.cc/1zKMyzYV/IMG-7014.jpg",
+      "imageUrls": ["https://i.postimg.cc/1zKMyzYV/IMG-7014.jpg"],
       "imageHint": "conference kit",
       "category": "Corporate"
     },
@@ -32,7 +36,7 @@
       "name": "Home & Decor",
       "description": "Eco-conscious home decor and earthen cookware made from natural materials.",
       "price": "Varies by item",
-      "imageUrl": "https://i.postimg.cc/Vkh46TYd/IMG-7016.jpg",
+      "imageUrls": ["https://i.postimg.cc/Vkh46TYd/IMG-7016.jpg"],
       "imageHint": "home decor",
       "category": "Decor"
     },
@@ -41,7 +45,7 @@
       "name": "Apparel",
       "description": "Printed T-shirts and custom apparel for events, teams, and organizations.",
       "price": "Inquire for bulk orders",
-      "imageUrl": "https://i.postimg.cc/44KfHHvD/IMG-7015.jpg",
+      "imageUrls": ["https://i.postimg.cc/44KfHHvD/IMG-7015.jpg"],
       "imageHint": "t-shirt",
       "category": "Apparel"
     },
@@ -50,7 +54,7 @@
       "name": "Souvenirs & Handicrafts",
       "description": "Curated eco-friendly kits and handicrafts representing local culture.",
       "price": "Inquire for custom kits",
-      "imageUrl": "https://i.postimg.cc/4dkZRBqT/IMG-7013.jpg",
+      "imageUrls": ["https://i.postimg.cc/4dkZRBqT/IMG-7013.jpg"],
       "imageHint": "souvenir",
       "category": "Souvenirs"
     }
