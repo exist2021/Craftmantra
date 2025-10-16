@@ -5,6 +5,7 @@ import { ProductGallery } from '@/components/sections/product-gallery';
 import { ImpactSection } from '@/components/sections/impact';
 import { AboutSection } from '@/components/sections/about';
 import { TestimonialsSection } from '@/components/sections/testimonials';
+import { FounderSection } from '@/components/sections/founder';
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <main className="flex-1">
         <HeroSection />
         <AboutSection />
+        <FounderSection />
         <ProductGallery />
         <ImpactSection />
         <TestimonialsSection />

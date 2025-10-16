@@ -7,7 +7,7 @@ export function AboutSection() {
       <div className="container px-4 md:px-6">
         <div className="text-center mb-12">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl font-headline text-primary">
-              Prelude - About the Company & Founder
+              Prelude - About the Company
             </h2>
         </div>
 
@@ -44,30 +44,6 @@ export function AboutSection() {
                 </div>
             </div>
         </div>
-        
-        <div className="mt-16 lg:mt-24 border-t pt-16 lg:pt-24">
-            <div className="grid gap-10 lg:grid-cols-2 lg:gap-16 items-center">
-              <div className="space-y-4">
-                <h3 className="text-2xl font-bold tracking-tighter sm:text-3xl font-headline text-primary/90">
-                  About the Founder
-                </h3>
-                <p className="text-muted-foreground md:text-lg/relaxed font-body">
-                  Renu Jayaram grew up with an entrepreneurial spirit, encouraged by her father to be a provider of jobs rather than a seeker. After contributing to a family business for about twenty years, the idea for Crafts Mantra started brewing after she organized a marketing fair for women entrepreneurs.
-                </p>
-              </div>
-              <div className="flex items-center justify-center">
-                 <Image 
-                    src="https://picsum.photos/seed/renu/600/600"
-                    alt="Renu Jayaram, Founder of Crafts Mantra"
-                    width={600}
-                    height={600}
-                    className="rounded-lg object-cover shadow-xl aspect-square"
-                    data-ai-hint="founder portrait"
-                />
-              </div>
-            </div>
-        </div>
-
       </div>
     </section>
   );
