@@ -4,7 +4,6 @@ import { HeroSection } from '@/components/sections/hero';
 import { ProductGallery } from '@/components/sections/product-gallery';
 import { PartnerCallout } from '@/components/sections/partner-callout';
 import { Collaborations } from '@/components/sections/collaborations';
-import { WhatsAppBanner } from '@/components/whatsapp-banner';
 
 export default function Home() {
   return (
@@ -17,7 +16,6 @@ export default function Home() {
         <Collaborations />
       </main>
       <SiteFooter />
-      <WhatsAppBanner />
     </div>
   );
 }
