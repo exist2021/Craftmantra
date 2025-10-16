@@ -21,25 +21,10 @@ const events = [
     imageHint: "founder with products"
   },
   {
-    title: "Exhibitions & Fairs",
-    image: "https://picsum.photos/seed/exhibition/600/400",
+    title: "Exhibition",
+    image: "https://i.postimg.cc/FKmDDDPZ/IMG-7036.webp",
     imageHint: "exhibition stall"
-  },
-  {
-    title: "Store Opening",
-    image: "https://picsum.photos/seed/storeopening/600/400",
-    imageHint: "retail store interior"
-  },
-  {
-    title: "Artisan Workshops",
-    image: "https://picsum.photos/seed/workshop/600/400",
-    imageHint: "pottery making"
-  },
-  {
-    title: "Corporate Collaborations",
-    image: "https://picsum.photos/seed/corporate/600/400",
-    imageHint: "corporate meeting"
-  },
+  }
 ];
 
 export function ImpactSection() {
