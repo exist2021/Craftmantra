@@ -1,7 +1,7 @@
 import type {Metadata} from 'next';
 import './globals.css';
 import { Toaster } from "@/components/ui/toaster";
-import { WhatsAppButton } from '@/components/whatsapp-button';
+import { WhatsAppBanner } from '@/components/whatsapp-banner';
 
 export const metadata: Metadata = {
   title: 'Crafts Mantra Online',
@@ -22,9 +22,9 @@ export default function RootLayout({
         <link href="https://fonts.googleapis.com/css2?family=Alegreya:wght@400;700&family=Belleza&display=swap" rel="stylesheet" />
       </head>
       <body className="font-body antialiased">
+        <WhatsAppBanner />
         {children}
         <Toaster />
-        <WhatsAppButton />
       </body>
     </html>
   );
