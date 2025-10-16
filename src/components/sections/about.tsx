@@ -13,11 +13,8 @@ export function AboutSection() {
 
         <div className="grid gap-10 lg:grid-cols-1 lg:gap-12 items-center">
           <div className="space-y-4">
-            <h3 className="text-2xl font-bold tracking-tighter text-center sm:text-3xl font-headline text-primary/90">
-              The Birth of Crafts Mantra
-            </h3>
             <p className="text-muted-foreground md:text-lg/relaxed font-body text-center max-w-3xl mx-auto">
-              Crafts Mantra was founded in April 2018 as a place where the talent of women and local artists could be discovered, honed, and channeled, giving small businesses an opportunity to reach potential customers. This is where Renu Jayaram found her Ikigai—a journey, not a destination.
+              Crafts Mantra was founded by Renu Jayaram in April 2018. She realized that talented, hardworking women creators often lacked a continually available marketplace to sell their products. They waited from fair to fair while products gathered dust. The company was born as a place where the talent of women and local artists could be discovered, honed, and channeled, giving small businesses an opportunity to reach potential customers. This is where Renu found her Ikigai—a journey, not a destination.
             </p>
           </div>
         </div>
@@ -52,13 +49,10 @@ export function AboutSection() {
             <div className="grid gap-10 lg:grid-cols-2 lg:gap-16 items-center">
               <div className="space-y-4">
                 <h3 className="text-2xl font-bold tracking-tighter sm:text-3xl font-headline text-primary/90">
-                  About the Founder: Renu Jayaram
+                  About the Founder
                 </h3>
                 <p className="text-muted-foreground md:text-lg/relaxed font-body">
-                  Renu grew up with an entrepreneurial spirit, encouraged by her father to be a provider of jobs rather than a seeker. After contributing to a family business for about twenty years, the idea for Crafts Mantra started brewing after she organized a marketing fair for women entrepreneurs.
-                </p>
-                <p className="text-muted-foreground md:text-lg/relaxed font-body">
-                  She realized that talented, hardworking women creators often lacked a continually available marketplace to sell their products. They waited from fair to fair while products gathered dust.
+                  Renu Jayaram grew up with an entrepreneurial spirit, encouraged by her father to be a provider of jobs rather than a seeker. After contributing to a family business for about twenty years, the idea for Crafts Mantra started brewing after she organized a marketing fair for women entrepreneurs.
                 </p>
               </div>
               <div className="flex items-center justify-center">
