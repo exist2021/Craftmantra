@@ -1,6 +1,7 @@
 "use client";
 
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import { HandHeart, Leaf } from "lucide-react";
 
 export function HeroSection() {
   const vision = "To create a sustainable world where every gift is not just creative but touches lives, empowers communities, promotes culture and nurtures the planet.";
@@ -25,12 +26,14 @@ export function HeroSection() {
                 <TabsTrigger value="mission" className="font-headline text-lg">Mission</TabsTrigger>
               </TabsList>
               <TabsContent value="vision">
-                <div className="p-6 pt-8 bg-background/50 rounded-b-lg rounded-tr-lg">
+                <div className="p-6 pt-8 bg-background/50 rounded-b-lg rounded-tr-lg text-center space-y-4">
+                  <HandHeart className="w-12 h-12 text-accent mx-auto" />
                   <p className="text-lg font-body text-foreground/80">{vision}</p>
                 </div>
               </TabsContent>
               <TabsContent value="mission">
-                 <div className="p-6 pt-8 bg-background/50 rounded-b-lg rounded-tl-lg">
+                 <div className="p-6 pt-8 bg-background/50 rounded-b-lg rounded-tl-lg text-center space-y-4">
+                  <Leaf className="w-12 h-12 text-accent mx-auto" />
                   <p className="text-lg font-body text-foreground/80">{mission}</p>
                 </div>
               </TabsContent>
