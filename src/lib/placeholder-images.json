@@ -66,7 +66,11 @@
       "name": "Apparel",
       "description": "Printed T-shirts and custom apparel for events, teams, and organizations.",
       "price": "Inquire for bulk orders",
-      "imageUrls": ["https://i.postimg.cc/44KfHHvD/IMG-7015.jpg"],
+      "imageUrls": [
+        "https://i.postimg.cc/KYzkQbDV/34160395-ec74-4adf-a7e8-989eb3ccf086.jpg",
+        "https://i.postimg.cc/MptfyHVQ/a52175d8-8b4e-4c14-9a3c-af8c4d680bf6.jpg",
+        "https://i.postimg.cc/5t0YpJS7/d4425b3a-8e11-4491-8add-d35b122692ae.jpg"
+      ],
       "imageHint": "t-shirt",
       "category": "Apparel"
     },
