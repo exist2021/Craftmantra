@@ -89,6 +89,46 @@ const events = [
     title: "Event Interaction",
     image: "https://i.postimg.cc/6QJQbGVw/IMG-7050.jpg",
     imageHint: "event interaction"
+  },
+  {
+    title: "Event Showcase",
+    image: "https://i.postimg.cc/Gp6zKGh5/049a3c4c-f338-4bcd-811a-684c3c5d44e6.jpg",
+    imageHint: "event showcase"
+  },
+  {
+    title: "Community Interaction",
+    image: "https://i.postimg.cc/vm4353M7/1eebaf3c-a40a-4cd7-9559-999078fac250.jpg",
+    imageHint: "community interaction"
+  },
+  {
+    title: "Product Workshop",
+    image: "https://i.postimg.cc/CK9J7kx0/2f30f753-0508-4f12-b20d-084cf4997293.jpg",
+    imageHint: "product workshop"
+  },
+  {
+    title: "Craft Fair Display",
+    image: "https://i.postimg.cc/ZqXjHpKV/5274bfde-e611-498b-b4ee-2b574beb44bd.jpg",
+    imageHint: "craft fair"
+  },
+  {
+    title: "Handmade Goods",
+    image: "https://i.postimg.cc/SKHVdCN5/83aa61bf-035a-487e-9901-2abda381c449.jpg",
+    imageHint: "handmade goods"
+  },
+  {
+    title: "Local Artisans",
+    image: "https://i.postimg.cc/QMF0c0sQ/c23b892a-6b73-4448-abb5-cd5a2aa30045.jpg",
+    imageHint: "local artisans"
+  },
+  {
+    title: "Exhibition Booth",
+    image: "https://i.postimg.cc/ZqXjHpKD/eabbeba6-62ca-420d-8781-66519150c688.jpg",
+    imageHint: "exhibition booth"
+  },
+  {
+    title: "Event Presentation",
+    image: "https://i.postimg.cc/XvtxLd7x/f2195a7c-e88d-4777-a963-0ddce1ab477a.jpg",
+    imageHint: "event presentation"
   }
 ];
 
