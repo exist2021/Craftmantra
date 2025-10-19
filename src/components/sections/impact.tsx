@@ -29,6 +29,66 @@ const events = [
     title: "With Anil Kumble",
     image: "https://i.postimg.cc/Nfn06n0t/IMG-7037.webp",
     imageHint: "Anil Kumble"
+  },
+  {
+    title: "Event Showcase",
+    image: "https://i.postimg.cc/4yd4HvG9/IMG-7039.jpg",
+    imageHint: "event showcase"
+  },
+  {
+    title: "Community Event",
+    image: "https://i.postimg.cc/PJxfvbHL/IMG-7040.jpg",
+    imageHint: "community event"
+  },
+  {
+    title: "Crafts Display",
+    image: "https://i.postimg.cc/rsmyRGTL/IMG-7041.jpg",
+    imageHint: "crafts display"
+  },
+  {
+    title: "Artisan Market",
+    image: "https://i.postimg.cc/C1JLKP30/IMG-7042.jpg",
+    imageHint: "artisan market"
+  },
+  {
+    title: "Product Display",
+    image: "https://i.postimg.cc/FRGsKW2w/IMG-7043.jpg",
+    imageHint: "product display"
+  },
+  {
+    title: "Exhibition View",
+    image: "https://i.postimg.cc/QtSxM42G/IMG-7044.jpg",
+    imageHint: "exhibition view"
+  },
+  {
+    title: "Event Stall",
+    image: "https://i.postimg.cc/QtjdhGnq/IMG-7045.jpg",
+    imageHint: "event stall"
+  },
+  {
+    title: "Showcasing Handicrafts",
+    image: "https://i.postimg.cc/vBGZbFSN/IMG-7046.jpg",
+    imageHint: "handicrafts showcase"
+  },
+  {
+    title: "Crafts Mantra Stall",
+    image: "https://i.postimg.cc/76qZw8QS/IMG-7047.jpg",
+    imageHint: "crafts mantra stall"
+  },
+  {
+    title: "With a Visitor",
+    image: "https://i.postimg.cc/fLMRDngy/IMG-7048.jpg",
+    imageHint: "visitor interaction"
+  },
+  {
+    title: "Displaying Products",
+    image: "https://i.postimg.cc/nL4hycTX/IMG-7049.jpg",
+    imageHint: "displaying products"
+  },
+  {
+    title: "Event Interaction",
+    image: "https://i.postimg.cc/6QJQbGVw/IMG-7050.jpg",
+    imageHint: "event interaction"
   }
 ];
 
