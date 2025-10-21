@@ -5,7 +5,7 @@ export function Logo() {
   return (
     <Link href="/" className="flex items-center" aria-label="Craft Mantra Homepage">
       <Image
-        src="https://i.postimg.cc/cJ3HX0pg/IMG-6981.png"
+        src="https://i.postimg.cc/vHBGnpNp/craft-mantra-logo.png"
         alt="Craft Mantra Logo"
         width={200}
         height={50}
