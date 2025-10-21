@@ -15,8 +15,11 @@ export function HeroSection() {
             <h1 className="text-4xl font-bold tracking-tighter sm:text-6xl xl:text-7xl/none font-headline text-primary">
               Touching lives while going green
             </h1>
-            <p className="max-w-[800px] mx-auto text-foreground md:text-xl font-body">
-              Welcome to Craft Mantra, a for-profit social enterprise with a dual focus: People and the Environment. We offer customized eco-friendly gifting solutions, aiming to reduce the carbon footprint by providing alternatives to market waste. Our store is a joyful, happy place located in the coastal town of Manipal, Udupi. We invite you to explore thoughtful, sustainable products that make Mother Earth breathe easier.
+            <h2 className="text-2xl font-headline text-accent sm:text-3xl">
+              Empowering Women Artisans & Small Businesses
+            </h2>
+            <p className="max-w-[800px] mx-auto text-foreground md:text-lg font-body">
+              Welcome to Craft Mantra, a for-profit social enterprise with a dual focus: People and the Environment. We offer customized eco-friendly gifting solutions based on innovative upcycling. Our mission is to provide alternatives to market waste by creating new value and giving materials a second utility through thoughtful design. Our space in the coastal town of Manipal, Udupi, is an open and joyful Hero Concept Store. We invite you to explore thoughtful, sustainable products that make Mother Earth breathe easier.
             </p>
           </div>
           <div className="w-full max-w-2xl pt-8">
