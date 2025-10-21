@@ -79,13 +79,13 @@ export function SiteFooter() {
           <div className="space-y-4 flex flex-col items-center md:items-start">
             <h3 className="text-lg font-bold font-headline">Connect with Us</h3>
             <div className="flex space-x-4">
-              <Link href="#" aria-label="Facebook">
+              <Link href="https://www.facebook.com/crafts.mantra.1" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
                 <Facebook className="h-6 w-6 hover:text-accent transition-colors" />
               </Link>
               <Link href="https://www.instagram.com/craftmantra.gifting?igsh=MWIzZHh6Y2diNDkwbQ==" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
                 <Instagram className="h-6 w-6 hover:text-accent transition-colors" />
               </Link>
-              <Link href="#" aria-label="LinkedIn">
+              <Link href="https://www.linkedin.com/in/craft-mantra-403419351/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
                 <Linkedin className="h-6 w-6 hover:text-accent transition-colors" />
               </Link>
               <Link href={whatsappUrl} target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
