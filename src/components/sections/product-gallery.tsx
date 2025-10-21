@@ -106,12 +106,12 @@ export function ProductGallery() {
         </div>
 
         <div className="mt-20 text-center bg-secondary/50 p-8 rounded-lg">
-           <h3 className="text-2xl font-bold tracking-tighter sm:text-3xl font-headline text-primary">Join Us – Become a CoCreator</h3>
+           <h3 className="text-2xl font-bold tracking-tighter sm:text-3xl font-headline text-primary">Craft Cares</h3>
            <p className="max-w-[700px] mx-auto mt-4 text-muted-foreground md:text-lg/relaxed font-body">
-            We invite anyone and everyone with a creative flair to be part of our supply chain. If you are a local, home-based, small-scale artisan—a large number being women—you are the true heart of Crafts Mantra. We offer a platform to promote your creativity and bring your products to the mainstream economy.
+            Our "Craft Cares" initiative includes programs like Autism Inclusivity, providing skill training for young artists with autism. We host "Sambrama Shanivara" (Bagless Day), a monthly awareness program for government school students, and collaborate with organizations like Rotary Manipal and POWER for skill-building and outreach. We also provide marketing support for products made by destitute women from the State home in Udupi.
            </p>
            <Button asChild className="mt-6">
-            <Link href="#contact">Get in Touch</Link>
+            <Link href="#contact">Collaborate With Us</Link>
            </Button>
         </div>
 
