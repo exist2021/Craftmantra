@@ -2,6 +2,7 @@
 import { Facebook, Instagram, Linkedin, Mail, MapPin, Phone } from "lucide-react";
 import { Logo } from "./logo";
 import Link from "next/link";
+import { Badge } from "./ui/badge";
 
 const WhatsAppIcon = (props: React.SVGProps<SVGSVGElement>) => (
   <svg
@@ -54,8 +55,8 @@ export function SiteFooter() {
             <ul className="space-y-2 font-body">
               <li className="flex items-center space-x-2">
                 <Mail className="h-5 w-5 text-accent" />
-                <a href="mailto:craftsmantra.designs@gmail.com" className="hover:text-accent transition-colors">
-                  craftsmantra.designs@gmail.com
+                <a href="mailto:craftmantrastore@gmail.com" className="hover:text-accent transition-colors">
+                  craftmantrastore@gmail.com
                 </a>
               </li>
               <li className="flex items-center space-x-2">
@@ -67,6 +68,10 @@ export function SiteFooter() {
                   <MapPin className="h-5 w-5 text-accent mt-1 flex-shrink-0" />
                   <span>Crafts Mantra Store, Udupi, Karnataka, India</span>
                 </a>
+              </li>
+              <li className="flex items-center space-x-2 pt-2">
+                <Badge variant="outline">GSTN</Badge>
+                <span className="font-mono text-sm">29AGZPS7602K1ZD</span>
               </li>
             </ul>
           </div>
