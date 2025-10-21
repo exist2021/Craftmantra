@@ -71,12 +71,11 @@ function ProductCard({ product }: { product: ImagePlaceholder }) {
         <CardDescription className="font-body">{product.description}</CardDescription>
       </CardHeader>
       <CardContent className="flex-grow" />
-      <CardFooter className="flex justify-between items-center bg-secondary/30 p-4">
-        <p className="text-sm font-semibold text-muted-foreground font-body">{product.price}</p>
+      <CardFooter className="flex justify-end items-center bg-secondary/30 p-4">
         <Button asChild variant="link" className="text-primary hover:text-accent p-0 h-auto">
           <Link href={whatsappUrl} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
-            <WhatsAppIcon className="h-4 w-4 text-green-600" />
-            <span>Inquire</span>
+            <WhatsAppIcon className="h-5 w-5 text-green-600" />
+            <span>WhatsApp</span>
           </Link>
         </Button>
       </CardFooter>
