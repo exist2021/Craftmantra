@@ -1,3 +1,4 @@
+
 "use client";
 
 import Image from 'next/image';
@@ -41,7 +42,7 @@ const allImages = [
     title: "Event Showcase",
     image: "https://i.postimg.cc/4yd4HvG9/IMG-7039.jpg",
     imageHint: "event showcase",
-    category: "Events"
+    category: "Exhibition"
   },
   {
     title: "Community Event",
