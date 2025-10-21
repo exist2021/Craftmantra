@@ -51,22 +51,10 @@ const allImages = [
     category: "CSR"
   },
   {
-    title: "Crafts Display",
-    image: "https://i.postimg.cc/rsmyRGTL/IMG-7041.jpg",
-    imageHint: "crafts display",
-    category: "Store"
-  },
-  {
     title: "Artisan Market",
     image: "https://i.postimg.cc/C1JLKP30/IMG-7042.jpg",
     imageHint: "artisan market",
     category: "Exhibition"
-  },
-  {
-    title: "Product Display",
-    image: "https://i.postimg.cc/FRGsKW2w/IMG-7043.jpg",
-    imageHint: "product display",
-    category: "Store"
   },
   {
     title: "Exhibition View",
@@ -99,12 +87,6 @@ const allImages = [
     category: "Events"
   },
   {
-    title: "Displaying Products",
-    image: "https://i.postimg.cc/nL4hycTX/IMG-7049.jpg",
-    imageHint: "displaying products",
-    category: "Store"
-  },
-  {
     title: "Event Interaction",
     image: "https://i.postimg.cc/6QJQbGVw/IMG-7050.jpg",
     imageHint: "event interaction",
@@ -133,12 +115,6 @@ const allImages = [
     image: "https://i.postimg.cc/ZqXjHpKV/5274bfde-e611-498b-b4ee-2b574beb44bd.jpg",
     imageHint: "craft fair",
     category: "Exhibition"
-  },
-  {
-    title: "Handmade Goods",
-    image: "https://i.postimg.cc/SKHVdCN5/83aa61bf-035a-487e-9901-2abda381c449.jpg",
-    imageHint: "handmade goods",
-    category: "Store"
   },
   {
     title: "Local Artisans",
@@ -319,3 +295,5 @@ export function ImpactSection() {
     </section>
   );
 }
+
+    
