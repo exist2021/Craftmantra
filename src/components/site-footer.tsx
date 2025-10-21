@@ -96,7 +96,7 @@ export function SiteFooter() {
         </div>
 
         <div className="mt-12 border-t border-muted-foreground/20 pt-6 text-center text-sm text-muted-foreground font-body">
-          <p className="font-bold">Renu Jayaram’s Success Mantra: Build Relationships and Business will follow!</p>
+          <p className="font-bold">Touching Lives while Going Green</p>
           <p className="mt-2">&copy; {new Date().getFullYear()} Craft Mantra. All Rights Reserved.</p>
         </div>
       </div>
