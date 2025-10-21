@@ -34,8 +34,8 @@
     },
     {
       "id": "accessories-1",
-      "name": "Accessories & Stationary",
-      "description": "Conference kits, cloth banners, T-shirts, and uniforms, often produced in bulk for clients.",
+      "name": "Stationery",
+      "description": "Conference kits, cloth banners, and other stationery, often produced in bulk for clients.",
       "price": "Inquire for custom pricing",
       "imageUrls": [
         "https://i.postimg.cc/5ypxQYFW/0c397640-340f-4cdf-b862-d80a67490385.jpg",
@@ -45,7 +45,7 @@
         "https://i.postimg.cc/CLLMTN9J/ffca69f2-2e9b-4758-b097-2d85a4d0a5d1.jpg"
       ],
       "imageHint": "conference kit",
-      "category": "Accessories"
+      "category": "Stationery"
     },
     {
       "id": "decor-1",
@@ -64,7 +64,7 @@
     },
     {
       "id": "tshirt-1",
-      "name": "Apparel",
+      "name": "Apparel & Accessories",
       "description": "Printed T-shirts and custom apparel for events, teams, and organizations.",
       "price": "Inquire for bulk orders",
       "imageUrls": [
@@ -73,7 +73,7 @@
         "https://i.postimg.cc/5t0YpJS7/d4425b3a-8e11-4491-8add-d35b122692ae.jpg"
       ],
       "imageHint": "t-shirt",
-      "category": "Apparel"
+      "category": "Apparel & Accessories"
     },
     {
       "id": "kit-1",
