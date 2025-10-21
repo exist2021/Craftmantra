@@ -31,7 +31,7 @@ export function SiteFooter() {
       <div className="container mx-auto px-4 md:px-6">
         
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl font-headline text-primary">Collaborate with Crafts Mantra</h2>
+          <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl font-headline text-primary">Collaborate with Craft Mantra</h2>
           <p className="mt-4 text-muted-foreground md:text-lg/relaxed font-body">
             Whether you are looking for customized eco-friendly products or seeking a platform for your creations, we are ready to connect. We seek the support of individuals, corporates, organizations, and institutions for promoting our locally made, eco-friendly customized handcrafted products.
           </p>
@@ -66,7 +66,7 @@ export function SiteFooter() {
               <li className="flex items-start space-x-2">
                 <a href="https://share.google/EWCf5cJ6me4h7PRSn" target="_blank" rel="noopener noreferrer" className="hover:text-accent transition-colors flex items-center space-x-2">
                   <MapPin className="h-5 w-5 text-accent mt-1 flex-shrink-0" />
-                  <span>Crafts Mantra Store, Udupi, Karnataka, India</span>
+                  <span>Craft Mantra Store, Udupi, Karnataka, India</span>
                 </a>
               </li>
               <li className="flex items-center space-x-2 pt-2">
@@ -97,7 +97,7 @@ export function SiteFooter() {
 
         <div className="mt-12 border-t border-muted-foreground/20 pt-6 text-center text-sm text-muted-foreground font-body">
           <p className="font-bold">Renu Jayaram’s Success Mantra: Build Relationships and Business will follow!</p>
-          <p className="mt-2">&copy; {new Date().getFullYear()} Crafts Mantra. All Rights Reserved.</p>
+          <p className="mt-2">&copy; {new Date().getFullYear()} Craft Mantra. All Rights Reserved.</p>
         </div>
       </div>
     </footer>

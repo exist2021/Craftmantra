@@ -10,13 +10,13 @@ export function FounderSection() {
               About the Founder
             </h2>
             <p className="text-muted-foreground md:text-lg/relaxed font-body">
-              Renu Jayaram grew up with an entrepreneurial spirit, encouraged by her father to be a provider of jobs rather than a seeker. After contributing to a family business for about twenty years, the idea for Crafts Mantra started brewing after she organized a marketing fair for women entrepreneurs.
+              Renu Jayaram grew up with an entrepreneurial spirit, encouraged by her father to be a provider of jobs rather than a seeker. After contributing to a family business for about twenty years, the idea for Craft Mantra started brewing after she organized a marketing fair for women entrepreneurs.
             </p>
           </div>
           <div className="flex items-center justify-center">
             <Image
               src="https://i.postimg.cc/kG78Kpwk/IMG-7034.webp"
-              alt="Renu Jayaram, Founder of Crafts Mantra"
+              alt="Renu Jayaram, Founder of Craft Mantra"
               width={600}
               height={600}
               className="rounded-lg object-cover shadow-xl aspect-square"

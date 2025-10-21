@@ -16,7 +16,7 @@ export function HeroSection() {
               Touching lives while going green
             </h1>
             <p className="max-w-[800px] mx-auto text-foreground md:text-xl font-body">
-              Welcome to Crafts Mantra, a for-profit social enterprise with a dual focus: People and the Environment. We offer customized eco-friendly gifting solutions, aiming to reduce the carbon footprint by providing alternatives to market waste. Our store is a joyful, happy place located in the coastal town of Udupi. We invite you to explore thoughtful, sustainable products that make Mother Earth breathe easier.
+              Welcome to Craft Mantra, a for-profit social enterprise with a dual focus: People and the Environment. We offer customized eco-friendly gifting solutions, aiming to reduce the carbon footprint by providing alternatives to market waste. Our store is a joyful, happy place located in the coastal town of Udupi. We invite you to explore thoughtful, sustainable products that make Mother Earth breathe easier.
             </p>
           </div>
           <div className="w-full max-w-2xl pt-8">

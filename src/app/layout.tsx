@@ -3,8 +3,8 @@ import './globals.css';
 import { Toaster } from "@/components/ui/toaster";
 
 export const metadata: Metadata = {
-  title: 'Crafts Mantra Online',
-  description: 'Crafts Mantra is a for-profit social enterprise based in Udupi, Karnataka, focused on customized eco-friendly gifting products. We promote local artisans, empower women, and aim to reduce the carbon footprint.',
+  title: 'Craft Mantra Online',
+  description: 'Craft Mantra is a for-profit social enterprise based in Udupi, Karnataka, focused on customized eco-friendly gifting products. We promote local artisans, empower women, and aim to reduce the carbon footprint.',
   keywords: "eco friendly gifting, Udupi crafts, handcrafted products, sustainable gifts, local artisans",
 };
 

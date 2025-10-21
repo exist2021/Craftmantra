@@ -71,9 +71,9 @@ const events = [
     imageHint: "handicrafts showcase"
   },
   {
-    title: "Crafts Mantra Stall",
+    title: "Craft Mantra Stall",
     image: "https://i.postimg.cc/76qZw8QS/IMG-7047.jpg",
-    imageHint: "crafts mantra stall"
+    imageHint: "craft mantra stall"
   },
   {
     title: "With a Visitor",
@@ -140,7 +140,7 @@ export function ImpactSection() {
           <div className="space-y-2">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl font-headline text-primary">Events Gallery</h2>
             <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed font-body">
-              From exhibitions to workshops, see Crafts Mantra in action.
+              From exhibitions to workshops, see Craft Mantra in action.
             </p>
           </div>
         </div>

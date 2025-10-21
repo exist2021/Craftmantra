@@ -12,7 +12,7 @@ import { Quote } from "lucide-react";
 
 const testimonials = [
   {
-    quote: "Thank you Renu and crafts Mantra for the wonderful customised bags. As always u come to you last minute but you never let me down ❤️ truly appreciate for all your support and being there for me and PRISM 😚🥰",
+    quote: "Thank you Renu and Craft Mantra for the wonderful customised bags. As always u come to you last minute but you never let me down ❤️ truly appreciate for all your support and being there for me and PRISM 😚🥰",
     author: "PRISM Studio",
     location: "Manipal",
   },
@@ -37,7 +37,7 @@ const testimonials = [
     location: "",
   },
     {
-    quote: "Our seniors were thoroughly impressed by the sophistication and personal touch of these gifts. Our teachers, batchmates, and juniors were overwhelmed with the gift. Highly recommend this shop - ‘craft Mantra’ for anyone seeking refined and bespoke gifting solutions! 😊😊❤️❤️",
+    quote: "Our seniors were thoroughly impressed by the sophistication and personal touch of these gifts. Our teachers, batchmates, and juniors were overwhelmed with the gift. Highly recommend this shop - ‘Craft Mantra’ for anyone seeking refined and bespoke gifting solutions! 😊😊❤️❤️",
     author: "Medical College Group",
     location: "",
   },

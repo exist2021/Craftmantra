@@ -11,7 +11,7 @@ export function AboutSection() {
         <div className="grid gap-10 lg:grid-cols-1 lg:gap-12 items-center">
           <div className="space-y-4">
             <p className="text-muted-foreground md:text-lg/relaxed font-body text-center max-w-3xl mx-auto">
-              Crafts Mantra was founded by Renu Jayaram in April 2018. She realized that talented, hardworking women creators often lacked a continually available marketplace to sell their products. They waited from fair to fair while products gathered dust. The company was born as a place where the talent of women and local artists could be discovered, honed, and channeled, giving small businesses an opportunity to reach potential customers. This is where Renu found her Ikigai—a journey, not a destination.
+              Craft Mantra was founded by Renu Jayaram in April 2018. She realized that talented, hardworking women creators often lacked a continually available marketplace to sell their products. They waited from fair to fair while products gathered dust. The company was born as a place where the talent of women and local artists could be discovered, honed, and channeled, giving small businesses an opportunity to reach potential customers. This is where Renu found her Ikigai—a journey, not a destination.
             </p>
           </div>
         </div>
