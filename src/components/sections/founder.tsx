@@ -9,9 +9,17 @@ export function FounderSection() {
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl font-headline text-primary">
               About the Founder
             </h2>
-            <p className="text-muted-foreground md:text-lg/relaxed font-body">
-              Renu Jayaram grew up with an entrepreneurial spirit, encouraged by her father to be a provider of jobs rather than a seeker. After contributing to a family business for about twenty years, the idea for Craft Mantra started brewing after she organized a marketing fair for women entrepreneurs.
-            </p>
+            <div className="space-y-4 text-muted-foreground md:text-lg/relaxed font-body">
+              <p>
+                Rtn PHF Renu Jayaram is a dedicated Social Entrepreneur with over two decades of business experience, who always aspired to be a job provider. As an art lover, she realized this dream in 2018 by founding Craft Mantra. This concept store was established to create a vital platform for empowering women and giving opportunities to hidden local artisans.
+              </p>
+              <p>
+                Renu's vision for Craft Mantra is centered on business with a conscience: prioritizing people and ethics over just numbers and profits, and fostering a culture of empathy, humanity, and kindness. Her guiding principle for success is to "build relationships and business will follow".
+              </p>
+               <p>
+                Craft Mantra, which offers products like eco-bags, decor, accessories, and apparels, serves as a market for women, local artisans, and small businesses. Renu is deeply committed to this mission, which she also advances through her role as a Rotarian and as the Founder President of POWER—Platform of Women Entrepreneurs. Her extensive background, including managing partner experience at Jaydev Group and her entrepreneurial ventures, informs her dedication to innovative product solutions. Through Craft Mantra, Renu continues to be instrumental in creating meaningful opportunities and supporting community-focused enterprise.
+              </p>
+            </div>
           </div>
           <div className="flex items-center justify-center">
             <Image
