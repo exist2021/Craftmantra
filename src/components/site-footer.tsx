@@ -66,7 +66,7 @@ export function SiteFooter() {
               <li className="flex items-start space-x-2">
                 <a href="https://share.google/EWCf5cJ6me4h7PRSn" target="_blank" rel="noopener noreferrer" className="hover:text-accent transition-colors flex items-center space-x-2">
                   <MapPin className="h-5 w-5 text-accent mt-1 flex-shrink-0" />
-                  <span>Craft Mantra Store, Udupi, Karnataka, India</span>
+                  <span>Craft Mantra Store, Manipal, Udupi, Karnataka, India</span>
                 </a>
               </li>
               <li className="flex items-center space-x-2 pt-2">
