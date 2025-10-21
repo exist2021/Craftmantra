@@ -19,7 +19,7 @@ export function HeroSection() {
               Empowering Women Artisans & Small Businesses
             </h2>
             <p className="max-w-[800px] mx-auto text-foreground md:text-lg font-body">
-              Welcome to Craft Mantra, a for-profit social enterprise with a dual focus: People and the Environment. We offer customized eco-friendly gifting solutions based on innovative upcycling. Our mission is to provide alternatives to market waste by creating new value and giving materials a second utility through thoughtful design. Our space in the coastal town of Manipal, Udupi, is an open and joyful Hero Concept Store. We invite you to explore thoughtful, sustainable products that make Mother Earth breathe easier.
+              Welcome to Craft Mantra, a for-profit social enterprise with a dual focus: People and the Environment. We offer customized eco-friendly gifting solutions based on innovative upcycling. Our mission is to provide alternatives to market waste by creating new value and giving materials a second utility through thoughtful design. Our space in the coastal town of Manipal, Udupi, is an open and joyful Concept Store. We invite you to explore thoughtful, sustainable products that make Mother Earth breathe easier.
             </p>
           </div>
           <div className="w-full max-w-2xl pt-8">
