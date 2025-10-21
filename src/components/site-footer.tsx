@@ -70,7 +70,7 @@ export function SiteFooter() {
                 </a>
               </li>
               <li className="flex items-center space-x-2 pt-2">
-                <Badge variant="outline">GSTN</Badge>
+                <Badge variant="outline">GSTIN</Badge>
                 <span className="font-mono text-sm">29AGZPS7602K1ZD</span>
               </li>
             </ul>
