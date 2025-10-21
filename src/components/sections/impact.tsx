@@ -157,6 +157,96 @@ const allImages = [
     image: "https://i.postimg.cc/XvtxLd7x/f2195a7c-e88d-4777-a963-0ddce1ab477a.jpg",
     imageHint: "event presentation",
     category: "Events"
+  },
+  {
+    title: "Store Display",
+    image: "https://i.postimg.cc/xCh9RwPd/05c05abc-4ed6-4964-8159-3b0bb7fcc737.jpg",
+    imageHint: "store display",
+    category: "Store"
+  },
+  {
+    title: "Store Products",
+    image: "https://i.postimg.cc/7LBHCGJD/15a821f6-72a9-4d60-b029-ca4a1a73d5a0.jpg",
+    imageHint: "store products",
+    category: "Store"
+  },
+  {
+    title: "Store Interior",
+    image: "https://i.postimg.cc/nzgnky12/22e0ef08-dcc6-4062-830a-12d145fe51d4.jpg",
+    imageHint: "store interior",
+    category: "Store"
+  },
+  {
+    title: "Craft Display",
+    image: "https://i.postimg.cc/zfdzLbb7/2971046f-a116-426f-8299-713f89fe81d4.jpg",
+    imageHint: "craft display",
+    category: "Store"
+  },
+  {
+    title: "Product Shelves",
+    image: "https://i.postimg.cc/P5QrjFtN/3a9a76f1-893a-4ca9-8f2e-2fc1d64118d3.jpg",
+    imageHint: "product shelves",
+    category: "Store"
+  },
+  {
+    title: "Handicrafts",
+    image: "https://i.postimg.cc/prjR1sGN/4c0e4fd7-9eb1-418f-bb5b-043a0c496a7f.jpg",
+    imageHint: "handicrafts",
+    category: "Store"
+  },
+  {
+    title: "Store Items",
+    image: "https://i.postimg.cc/KY9GKkk5/5e53cd42-6e2c-4c9d-b192-6ad51592ca1a.jpg",
+    imageHint: "store items",
+    category: "Store"
+  },
+  {
+    title: "Storefront Display",
+    image: "https://i.postimg.cc/sxWs0Tnk/5e855e7e-71de-473b-88a9-8539cd881a13.jpg",
+    imageHint: "storefront display",
+    category: "Store"
+  },
+  {
+    title: "Decor Items",
+    image: "https://i.postimg.cc/MTNzDCYV/676bc629-8c44-4c35-afd6-9d3bc93db6ea.jpg",
+    imageHint: "decor items",
+    category: "Store"
+  },
+  {
+    title: "Store Goods",
+    image: "https://i.postimg.cc/mDtb7LCK/6c565066-f5a3-41e3-a8c9-8c8c95222ff5.jpg",
+    imageHint: "store goods",
+    category: "Store"
+  },
+  {
+    title: "Handmade Products",
+    image: "https://i.postimg.cc/cC305FDh/996a5de9-4010-436a-bd2b-f0075aa80020.jpg",
+    imageHint: "handmade products",
+    category: "Store"
+  },
+  {
+    title: "Crafted Goods",
+    image: "https://i.postimg.cc/mDJTwvSX/bbe477cb-1a36-409b-9e77-a1419c394e43.jpg",
+    imageHint: "crafted goods",
+    category: "Store"
+  },
+  {
+    title: "Store Merchandise",
+    image: "https://i.postimg.cc/BvhS8LLN/bdf11f61-6fa8-4f38-a26a-6107be24d921.jpg",
+    imageHint: "store merchandise",
+    category: "Store"
+  },
+  {
+    title: "Artisanal Products",
+    image: "https://i.postimg.cc/xdsfkJJy/c2959336-a662-4c91-a51d-12c2975292bf.jpg",
+    imageHint: "artisanal products",
+    category: "Store"
+  },
+  {
+    title: "Local Crafts",
+    image: "https://i.postimg.cc/ydkV01cw/f74f2270-1aed-44ae-b154-5d96d05e01b9.jpg",
+    imageHint: "local crafts",
+    category: "Store"
   }
 ];
 
