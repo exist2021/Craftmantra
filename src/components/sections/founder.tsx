@@ -11,13 +11,13 @@ export function FounderSection() {
             </h2>
             <div className="space-y-4 text-muted-foreground md:text-lg/relaxed font-body">
               <p>
-                Rtn PHF Renu Jayaram is a dedicated Social Entrepreneur with over two decades of business experience, who always aspired to be a job provider. As an art lover, she realized this dream in 2018 by founding Craft Mantra. This concept store was established to create a vital platform for empowering women and giving opportunities to hidden local artisans.
+                Rtn PHF Renu Jayaram is a Social Entrepreneur with over 20 years of business experience, always driven to be a job provider rather than a job seeker. As an art lover, she founded Craft Mantra in 2018 as a concept store and a platform to pursue her dream of empowering women and giving opportunities to hidden local artisans.
               </p>
               <p>
-                Renu's vision for Craft Mantra is centered on business with a conscience: prioritizing people and ethics over just numbers and profits, and fostering a culture of empathy, humanity, and kindness. Her guiding principle for success is to "build relationships and business will follow".
+                Craft Mantra is built on a philosophy where empathy, humanity, and kindness are prioritized over numbers and profits. It is a place where product innovation is key, and ideas are valued. Renu's "success mantra" is simple: "build relationships and business will follow".
               </p>
                <p>
-                Craft Mantra, which offers products like eco-bags, decor, accessories, and apparels, serves as a market for women, local artisans, and small businesses. Renu is deeply committed to this mission, which she also advances through her role as a Rotarian and as the Founder President of POWER—Platform of Women Entrepreneurs. Her extensive background, including managing partner experience at Jaydev Group and her entrepreneurial ventures, informs her dedication to innovative product solutions. Through Craft Mantra, Renu continues to be instrumental in creating meaningful opportunities and supporting community-focused enterprise.
+                Her work extends through her various affiliations, including founding POWER—Platform of Women Entrepreneurs—and her role as a Rotarian, all dedicated to utilizing her talents for social good and providing support for women, artisans, and small businesses. Craft Mantra’s offerings include eco-bags, accessories, decor, and apparel.
               </p>
             </div>
           </div>
