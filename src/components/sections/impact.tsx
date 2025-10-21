@@ -1,3 +1,4 @@
+"use client";
 
 import Image from 'next/image';
 import { Card, CardContent } from "@/components/ui/card";
@@ -8,142 +9,185 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel";
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import { useState } from 'react';
 
-const events = [
+const allImages = [
   {
     title: "Founder at an Event",
     image: "https://i.postimg.cc/65SXk09T/IMG-7021.jpg",
-    imageHint: "founder at event"
+    imageHint: "founder at event",
+    category: "Events"
   },
   {
     title: "Founder Showcasing Products",
     image: "https://i.postimg.cc/qB8gdwQY/IMG-7035.webp",
-    imageHint: "founder with products"
+    imageHint: "founder with products",
+    category: "Exhibition"
   },
   {
     title: "Exhibition",
     image: "https://i.postimg.cc/FKmDDDPZ/IMG-7036.webp",
-    imageHint: "exhibition stall"
+    imageHint: "exhibition stall",
+    category: "Exhibition"
   },
   {
     title: "With Anil Kumble",
     image: "https://i.postimg.cc/Nfn06n0t/IMG-7037.webp",
-    imageHint: "Anil Kumble"
+    imageHint: "Anil Kumble",
+    category: "Events"
   },
   {
     title: "Event Showcase",
     image: "https://i.postimg.cc/4yd4HvG9/IMG-7039.jpg",
-    imageHint: "event showcase"
+    imageHint: "event showcase",
+    category: "Events"
   },
   {
     title: "Community Event",
     image: "https://i.postimg.cc/PJxfvbHL/IMG-7040.jpg",
-    imageHint: "community event"
+    imageHint: "community event",
+    category: "CSR"
   },
   {
     title: "Crafts Display",
     image: "https://i.postimg.cc/rsmyRGTL/IMG-7041.jpg",
-    imageHint: "crafts display"
+    imageHint: "crafts display",
+    category: "Store"
   },
   {
     title: "Artisan Market",
     image: "https://i.postimg.cc/C1JLKP30/IMG-7042.jpg",
-    imageHint: "artisan market"
+    imageHint: "artisan market",
+    category: "Exhibition"
   },
   {
     title: "Product Display",
     image: "https://i.postimg.cc/FRGsKW2w/IMG-7043.jpg",
-    imageHint: "product display"
+    imageHint: "product display",
+    category: "Store"
   },
   {
     title: "Exhibition View",
     image: "https://i.postimg.cc/QtSxM42G/IMG-7044.jpg",
-    imageHint: "exhibition view"
+    imageHint: "exhibition view",
+    category: "Exhibition"
   },
   {
     title: "Event Stall",
     image: "https://i.postimg.cc/QtjdhGnq/IMG-7045.jpg",
-    imageHint: "event stall"
+    imageHint: "event stall",
+    category: "Exhibition"
   },
   {
     title: "Showcasing Handicrafts",
     image: "https://i.postimg.cc/vBGZbFSN/IMG-7046.jpg",
-    imageHint: "handicrafts showcase"
+    imageHint: "handicrafts showcase",
+    category: "Exhibition"
   },
   {
     title: "Craft Mantra Stall",
     image: "https://i.postimg.cc/76qZw8QS/IMG-7047.jpg",
-    imageHint: "craft mantra stall"
+    imageHint: "craft mantra stall",
+    category: "Exhibition"
   },
   {
     title: "With a Visitor",
     image: "https://i.postimg.cc/fLMRDngy/IMG-7048.jpg",
-    imageHint: "visitor interaction"
+    imageHint: "visitor interaction",
+    category: "Events"
   },
   {
     title: "Displaying Products",
     image: "https://i.postimg.cc/nL4hycTX/IMG-7049.jpg",
-    imageHint: "displaying products"
+    imageHint: "displaying products",
+    category: "Store"
   },
   {
     title: "Event Interaction",
     image: "https://i.postimg.cc/6QJQbGVw/IMG-7050.jpg",
-    imageHint: "event interaction"
+    imageHint: "event interaction",
+    category: "Events"
   },
   {
     title: "Event Showcase",
     image: "https://i.postimg.cc/Gp6zKGh5/049a3c4c-f338-4bcd-811a-684c3c5d44e6.jpg",
-    imageHint: "event showcase"
+    imageHint: "event showcase",
+    category: "Events"
   },
   {
     title: "Community Interaction",
     image: "https://i.postimg.cc/vm4353M7/1eebaf3c-a40a-4cd7-9559-999078fac250.jpg",
-    imageHint: "community interaction"
+    imageHint: "community interaction",
+    category: "CSR"
   },
   {
     title: "Product Workshop",
     image: "https://i.postimg.cc/CK9J7kx0/2f30f753-0508-4f12-b20d-084cf4997293.jpg",
-    imageHint: "product workshop"
+    imageHint: "product workshop",
+    category: "CSR"
   },
   {
     title: "Craft Fair Display",
     image: "https://i.postimg.cc/ZqXjHpKV/5274bfde-e611-498b-b4ee-2b574beb44bd.jpg",
-    imageHint: "craft fair"
+    imageHint: "craft fair",
+    category: "Exhibition"
   },
   {
     title: "Handmade Goods",
     image: "https://i.postimg.cc/SKHVdCN5/83aa61bf-035a-487e-9901-2abda381c449.jpg",
-    imageHint: "handmade goods"
+    imageHint: "handmade goods",
+    category: "Store"
   },
   {
     title: "Local Artisans",
     image: "https://i.postimg.cc/QMF0c0sQ/c23b892a-6b73-4448-abb5-cd5a2aa30045.jpg",
-    imageHint: "local artisans"
+    imageHint: "local artisans",
+    category: "CSR"
   },
   {
     title: "Exhibition Booth",
     image: "https://i.postimg.cc/ZqXjHpKD/eabbeba6-62ca-420d-8781-66519150c688.jpg",
-    imageHint: "exhibition booth"
+    imageHint: "exhibition booth",
+    category: "Exhibition"
   },
   {
     title: "Event Presentation",
     image: "https://i.postimg.cc/XvtxLd7x/f2195a7c-e88d-4777-a963-0ddce1ab477a.jpg",
-    imageHint: "event presentation"
+    imageHint: "event presentation",
+    category: "Events"
   }
 ];
 
+const categories = ["All", "Store", "CSR", "Exhibition", "Events"];
+
 export function ImpactSection() {
+  const [activeTab, setActiveTab] = useState("All");
+
+  const filteredImages = activeTab === "All"
+    ? allImages
+    : allImages.filter((image) => image.category === activeTab);
+
   return (
-    <section id="impact" className="w-full py-12 md:py-24 lg:py-32 bg-secondary/50">
+    <section id="gallery" className="w-full py-12 md:py-24 lg:py-32 bg-secondary/50">
       <div className="container px-4 md:px-6">
         <div className="flex flex-col items-center justify-center space-y-4 text-center mb-12">
           <div className="space-y-2">
-            <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl font-headline text-primary">Events Gallery</h2>
+            <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl font-headline text-primary">Gallery</h2>
             <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed font-body">
               From exhibitions to workshops, see Craft Mantra in action.
             </p>
           </div>
         </div>
+        
+        <Tabs value={activeTab} onValueChange={setActiveTab} className="w-full max-w-md mx-auto mb-8">
+          <TabsList className="grid w-full grid-cols-5">
+            {categories.map((category) => (
+              <TabsTrigger key={category} value={category}>{category}</TabsTrigger>
+            ))}
+          </TabsList>
+        </Tabs>
+        
         <Carousel
           opts={{
             align: "start",
@@ -152,7 +196,7 @@ export function ImpactSection() {
           className="w-full max-w-4xl mx-auto"
         >
           <CarouselContent>
-            {events.map((event, index) => (
+            {filteredImages.map((event, index) => (
               <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/3">
                 <div className="p-1">
                   <Card>
@@ -173,8 +217,12 @@ export function ImpactSection() {
               </CarouselItem>
             ))}
           </CarouselContent>
-          <CarouselPrevious />
-          <CarouselNext />
+          {filteredImages.length > 3 && (
+            <>
+              <CarouselPrevious />
+              <CarouselNext />
+            </>
+          )}
         </Carousel>
       </div>
     </section>
