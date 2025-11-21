@@ -274,9 +274,6 @@ export function ImpactSection() {
                           className="object-cover transition-transform duration-300 group-hover:scale-105"
                           data-ai-hint={event.imageHint}
                         />
-                         <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/70 to-transparent p-4">
-                            <h3 className="text-lg font-bold text-primary-foreground font-headline">{event.title}</h3>
-                         </div>
                     </CardContent>
                   </Card>
                 </div>
