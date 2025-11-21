@@ -34,9 +34,6 @@ export function HeroSection() {
               <p>
                 We curate mementos, conference kits, souvenirs and other thoughtful, creative products, and Craft Mantra offers eco-bags, accessories, décor, and apparel, each rooted in thoughtful design and purposeful craftsmanship.
               </p>
-              <p className="font-bold">
-                Let’s join hands to CRAFT ways for a greener world.
-              </p>
             </div>
           </div>
           <div className="w-full max-w-2xl pt-8">
