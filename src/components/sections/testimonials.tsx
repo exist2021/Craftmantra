@@ -77,7 +77,7 @@ export function TestimonialsSection() {
           <div className="space-y-4">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl font-headline text-primary">Building Relationships. Building Business.</h2>
             <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed font-body">
-              Our success mantra is simple: Build Relationships and Business will follow! Here’s what some of our valued partners have to say about their experience working with us.
+              Our success mantra is simple: Build Relationships and Business will follow!<br />Here’s what some of our valued partners have to say about their experience working with us.
             </p>
           </div>
         </div>
