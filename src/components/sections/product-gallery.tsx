@@ -93,7 +93,7 @@ export function ProductGallery() {
           <div className="space-y-2">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl font-headline text-primary">Our Products: Handcrafted, Creative, Sustainable, Unique</h2>
             <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed font-body">
-              We showcase bags, folders, mementos, home décor, apparels, accessories, trinkets, and trivia displayed on upcycled shelves. Our product range is made-to-order and caters to personal or professional event needs.
+              We showcase bags, folders, mementos, home décor, apparels, accessories, trinkets, and trivia displayed on upcycled shelves.
             </p>
           </div>
         </div>
