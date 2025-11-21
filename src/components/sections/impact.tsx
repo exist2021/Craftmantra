@@ -47,7 +47,7 @@ const allImages = [
     title: "Community Event",
     image: "https://i.postimg.cc/PJxfvbHL/IMG-7040.jpg",
     imageHint: "community event",
-    category: "CSR"
+    category: "Star Showcase"
   },
   {
     title: "Artisan Market",
@@ -101,13 +101,13 @@ const allImages = [
     title: "Community Interaction",
     image: "https://i.postimg.cc/vm4353M7/1eebaf3c-a40a-4cd7-9559-999078fac250.jpg",
     imageHint: "community interaction",
-    category: "CSR"
+    category: "Star Showcase"
   },
   {
     title: "Product Workshop",
     image: "https://i.postimg.cc/CK9J7kx0/2f30f753-0508-4f12-b20d-084cf4997293.jpg",
     imageHint: "product workshop",
-    category: "CSR"
+    category: "Star Showcase"
   },
   {
     title: "Craft Fair Display",
@@ -119,7 +119,7 @@ const allImages = [
     title: "Local Artisans",
     image: "https://i.postimg.cc/QMF0c0sQ/c23b892a-6b73-4448-abb5-cd5a2aa30045.jpg",
     imageHint: "local artisans",
-    category: "CSR"
+    category: "Star Showcase"
   },
   {
     title: "Exhibition Booth",
