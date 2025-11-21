@@ -35,7 +35,7 @@ export function SiteFooter() {
           <p className="mt-4 text-muted-foreground md:text-lg/relaxed font-body">
             Be part of the change. Choose handcrafted, eco-friendly products with purpose—or share your own creations with the world. We invite individuals, corporates, organizations, and institutions to stand with us and support locally made, sustainably crafted innovation.
           </p>
-          <p className="mt-4 text-muted-foreground md:text-lg/relaxed font-body font-bold">Let’s join hands to CRAFT ways for a GREEN world.</p>
+          <p className="mt-4 text-muted-foreground md:text-lg/relaxed font-body font-bold">Let’s join hands to CRAFT ways for a GREEN world!</p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12 text-left">
