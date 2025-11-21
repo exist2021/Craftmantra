@@ -20,12 +20,6 @@ const allImages = [
     category: "Events"
   },
   {
-    title: "Founder Showcasing Products",
-    image: "https://i.postimg.cc/qB8gdwQY/IMG-7035.webp",
-    imageHint: "founder with products",
-    category: "Star Showcase"
-  },
-  {
     title: "Exhibition",
     image: "https://i.postimg.cc/FKmDDDPZ/IMG-7036.webp",
     imageHint: "exhibition stall",
@@ -41,19 +35,19 @@ const allImages = [
     title: "Event Showcase",
     image: "https://i.postimg.cc/4yd4HvG9/IMG-7039.jpg",
     imageHint: "event showcase",
-    category: "Star Showcase"
+    category: "Events"
   },
   {
     title: "Community Event",
     image: "https://i.postimg.cc/PJxfvbHL/IMG-7040.jpg",
     imageHint: "community event",
-    category: "Star Showcase"
+    category: "Events"
   },
   {
     title: "Artisan Market",
     image: "https://i.postimg.cc/C1JLKP30/IMG-7042.jpg",
     imageHint: "artisan market",
-    category: "Exhibition"
+    category: "Events"
   },
   {
     title: "Exhibition View",
@@ -77,7 +71,7 @@ const allImages = [
     title: "Craft Mantra Stall",
     image: "https://i.postimg.cc/76qZw8QS/IMG-7047.jpg",
     imageHint: "craft mantra stall",
-    category: "Exhibition"
+    category: "Star Showcase"
   },
   {
     title: "With a Visitor",
