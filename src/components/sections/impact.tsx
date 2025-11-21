@@ -35,19 +35,13 @@ const allImages = [
     title: "With a Visitor",
     image: "https://i.postimg.cc/fLMRDngy/IMG-7048.jpg",
     imageHint: "visitor interaction",
-    category: "Events"
+    category: "Star Showcase"
   },
   {
     title: "Event Interaction",
     image: "https://i.postimg.cc/6QJQbGVw/IMG-7050.jpg",
     imageHint: "event interaction",
-    category: "Events"
-  },
-  {
-    title: "With Anil Kumble",
-    image: "https://i.postimg.cc/Nfn06n0t/IMG-7037.webp",
-    imageHint: "Anil Kumble",
-    category: "Events"
+    category: "Star Showcase"
   },
   {
     title: "Local Artisans",
@@ -62,16 +56,10 @@ const allImages = [
     category: "Events"
   },
   {
-    title: "Exhibition",
-    image: "https://i.postimg.cc/FKmDDDPZ/IMG-7036.webp",
-    imageHint: "exhibition stall",
-    category: "Star Showcase"
-  },
-  {
     title: "Exhibition View",
     image: "https://i.postimg.cc/QtSxM42G/IMG-7044.jpg",
     imageHint: "exhibition view",
-    category: "Star Showcase"
+    category: "Events"
   },
   {
     title: "Craft Mantra Stall",
@@ -83,19 +71,19 @@ const allImages = [
     title: "Event Showcase",
     image: "https://i.postimg.cc/Gp6zKGh5/049a3c4c-f338-4bcd-811a-684c3c5d44e6.jpg",
     imageHint: "event showcase",
-    category: "Star Showcase"
+    category: "Events"
   },
   {
     title: "Artisan Market",
     image: "https://i.postimg.cc/C1JLKP30/IMG-7042.jpg",
     imageHint: "artisan market",
-    category: "Star Showcase"
+    category: "Events"
   },
   {
     title: "Event Stall",
     image: "https://i.postimg.cc/QtjdhGnq/IMG-7045.jpg",
     imageHint: "event stall",
-    category: "Star Showcase"
+    category: "Events"
   },
   {
     title: "Exhibition Booth",
@@ -192,6 +180,18 @@ const allImages = [
     image: "https://i.postimg.cc/ydkV01cw/f74f2270-1aed-44ae-b154-5d96d05e01b9.jpg",
     imageHint: "local crafts",
     category: "Store"
+  },
+  {
+    title: "With Anil Kumble",
+    image: "https://i.postimg.cc/Nfn06n0t/IMG-7037.webp",
+    imageHint: "Anil Kumble",
+    category: "Star Showcase"
+  },
+  {
+    title: "Exhibition",
+    image: "https://i.postimg.cc/FKmDDDPZ/IMG-7036.webp",
+    imageHint: "exhibition stall",
+    category: "Star Showcase"
   }
 ];
 
