@@ -59,7 +59,7 @@ const allImages = [
     title: "Exhibition View",
     image: "https://i.postimg.cc/QtSxM42G/IMG-7044.jpg",
     imageHint: "exhibition view",
-    category: "Star Showcase"
+    category: "Events"
   },
   {
     title: "Craft Mantra Stall",
