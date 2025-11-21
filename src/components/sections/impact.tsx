@@ -35,7 +35,7 @@ const allImages = [
     title: "With Anil Kumble",
     image: "https://i.postimg.cc/Nfn06n0t/IMG-7037.webp",
     imageHint: "Anil Kumble",
-    category: "Events"
+    category: "Celebrity"
   },
   {
     title: "Event Showcase",
@@ -225,7 +225,7 @@ const allImages = [
   }
 ];
 
-const categories = ["All", "Store", "CSR", "Exhibition", "Events"];
+const categories = ["All", "Store", "CSR", "Exhibition", "Events", "Celebrity"];
 
 export function ImpactSection() {
   const [activeTab, setActiveTab] = useState("All");
@@ -246,8 +246,8 @@ export function ImpactSection() {
           </div>
         </div>
         
-        <Tabs value={activeTab} onValueChange={setActiveTab} className="w-full max-w-md mx-auto mb-8">
-          <TabsList className="grid w-full grid-cols-5">
+        <Tabs value={activeTab} onValueChange={setActiveTab} className="w-full max-w-lg mx-auto mb-8">
+          <TabsList className="grid w-full grid-cols-6">
             {categories.map((category) => (
               <TabsTrigger key={category} value={category}>{category}</TabsTrigger>
             ))}
