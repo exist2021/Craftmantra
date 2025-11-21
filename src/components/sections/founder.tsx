@@ -14,10 +14,10 @@ export function FounderSection() {
                 Rtn PHF Renu Jayaram is a Social Entrepreneur with over 20 years of business experience, always driven to be a job provider rather than a job seeker. As an art lover, she founded Craft Mantra in 2018 as a concept store and a platform to pursue her dream of emPOWERing women and giving opportunities to hidden local artisans.
               </p>
               <p>
-                Craft Mantra is built on a philosophy where empathy, humanity, and kindness are prioritized over numbers and profits. It is a place where product innovation is key, and ideas are valued. Renu's "success mantra" is simple: "build relationships and business will follow".
-              </p>
-               <p>
                 Her work extends through her various affiliations, including founding POWER—Platform of Women Entrepreneurs—and her role as a Rotarian, all dedicated to utilizing her talents for social good and providing support for women, artisans, and small businesses. Craft Mantra’s offerings include eco-bags, accessories, decor, and apparel.
+              </p>
+              <p>
+                Craft Mantra is built on a philosophy where empathy, humanity, and kindness are prioritized over numbers and profits. It is a place where product innovation is key, and ideas are valued. Renu's "success mantra" is simple: "build relationships and business will follow".
               </p>
             </div>
           </div>
