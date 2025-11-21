@@ -23,7 +23,7 @@ const allImages = [
     title: "Founder Showcasing Products",
     image: "https://i.postimg.cc/qB8gdwQY/IMG-7035.webp",
     imageHint: "founder with products",
-    category: "Exhibition"
+    category: "Star Showcase"
   },
   {
     title: "Exhibition",
@@ -41,7 +41,7 @@ const allImages = [
     title: "Event Showcase",
     image: "https://i.postimg.cc/4yd4HvG9/IMG-7039.jpg",
     imageHint: "event showcase",
-    category: "Exhibition"
+    category: "Star Showcase"
   },
   {
     title: "Community Event",
@@ -59,13 +59,13 @@ const allImages = [
     title: "Exhibition View",
     image: "https://i.postimg.cc/QtSxM42G/IMG-7044.jpg",
     imageHint: "exhibition view",
-    category: "Exhibition"
+    category: "Star Showcase"
   },
   {
     title: "Event Stall",
     image: "https://i.postimg.cc/QtjdhGnq/IMG-7045.jpg",
     imageHint: "event stall",
-    category: "Exhibition"
+    category: "Star Showcase"
   },
   {
     title: "Showcasing Handicrafts",
