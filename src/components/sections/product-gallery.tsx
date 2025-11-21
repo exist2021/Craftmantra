@@ -108,7 +108,7 @@ export function ProductGallery() {
            <h3 className="text-2xl font-bold tracking-tighter sm:text-3xl font-headline text-primary">#CraftCares</h3>
            <p className="text-muted-foreground font-body text-sm tracking-wide">A social reach initiative by Craft Mantra</p>
            <p className="max-w-[700px] mx-auto mt-4 text-muted-foreground md:text-lg/relaxed font-body">
-            Our "Craft Cares" initiative includes programs like Autism Inclusivity, providing skill training for young artists with autism. We host "Sambrama Shanivara" (Bagless Day), a monthly awareness program for government school students, and collaborate with organizations like Rotary Manipal and POWER for skill-building and outreach. We also provide marketing support for products made by destitute women from the State home, Manipal, Udupi.
+            Craft Cares is the social outreach initiative of Craft Mantra, designed to turn passion into purpose through hands-on workshops, outreach programs, skill-development training, and talent mentoring to respond to real-world needs. It embodies the spirit of crafting change together. Our activities include Autism Inclusivity programs, workplace readiness training, collaborations with government schools for Bagless Day initiatives, and empowering young minds with life-skills and creative learning—among many more impactful efforts.
            </p>
            <Button asChild className="mt-6">
             <Link href="#contact">Collaborate With Us</Link>
