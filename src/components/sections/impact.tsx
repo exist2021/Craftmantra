@@ -14,40 +14,46 @@ import { useState } from 'react';
 
 const allImages = [
   {
-    title: "Event Showcase",
-    image: "https://i.postimg.cc/4yd4HvG9/IMG-7039.jpg",
-    imageHint: "event showcase",
-    category: "Events"
-  },
-  {
-    title: "Community Event",
-    image: "https://i.postimg.cc/PJxfvbHL/IMG-7040.jpg",
-    imageHint: "community event",
-    category: "Events"
-  },
-  {
-    title: "Showcasing Handicrafts",
-    image: "https://i.postimg.cc/vBGZbFSN/IMG-7046.jpg",
-    imageHint: "handicrafts showcase",
-    category: "Events"
-  },
-  {
     title: "With a Visitor",
     image: "https://i.postimg.cc/fLMRDngy/IMG-7048.jpg",
     imageHint: "visitor interaction",
-    category: "Star Showcase"
+    category: "Events"
   },
   {
     title: "Event Interaction",
     image: "https://i.postimg.cc/6QJQbGVw/IMG-7050.jpg",
     imageHint: "event interaction",
-    category: "Star Showcase"
+    category: "Events"
   },
   {
     title: "Event Presentation",
     image: "https://i.postimg.cc/XvtxLd7x/f2195a7c-e88d-4777-a963-0ddce1ab477a.jpg",
     imageHint: "event presentation",
     category: "Star Showcase"
+  },
+  {
+    title: "Artisan Market",
+    image: "https://i.postimg.cc/C1JLKP30/IMG-7042.jpg",
+    imageHint: "artisan market",
+    category: "Events"
+  },
+  {
+    title: "Exhibition Booth",
+    image: "https://i.postimg.cc/ZqXjHpKD/eabbeba6-62ca-420d-8781-66519150c688.jpg",
+    imageHint: "exhibition booth",
+    category: "Events"
+  },
+  {
+    title: "With Anil Kumble",
+    image: "https://i.postimg.cc/Nfn06n0t/IMG-7037.webp",
+    imageHint: "Anil Kumble",
+    category: "Events"
+  },
+  {
+    title: "Exhibition",
+    image: "https://i.postimg.cc/FKmDDDPZ/IMG-7036.webp",
+    imageHint: "exhibition stall",
+    category: "Events"
   },
   {
     title: "Exhibition View",
@@ -62,21 +68,9 @@ const allImages = [
     category: "Star Showcase"
   },
   {
-    title: "Artisan Market",
-    image: "https://i.postimg.cc/C1JLKP30/IMG-7042.jpg",
-    imageHint: "artisan market",
-    category: "Star Showcase"
-  },
-  {
     title: "Event Stall",
     image: "https://i.postimg.cc/QtjdhGnq/IMG-7045.jpg",
     imageHint: "event stall",
-    category: "Star Showcase"
-  },
-  {
-    title: "Exhibition Booth",
-    image: "https://i.postimg.cc/ZqXjHpKD/eabbeba6-62ca-420d-8781-66519150c688.jpg",
-    imageHint: "exhibition booth",
     category: "Star Showcase"
   },
   {
@@ -168,18 +162,6 @@ const allImages = [
     image: "https://i.postimg.cc/ydkV01cw/f74f2270-1aed-44ae-b154-5d96d05e01b9.jpg",
     imageHint: "local crafts",
     category: "Store"
-  },
-  {
-    title: "With Anil Kumble",
-    image: "https://i.postimg.cc/Nfn06n0t/IMG-7037.webp",
-    imageHint: "Anil Kumble",
-    category: "Star Showcase"
-  },
-  {
-    title: "Exhibition",
-    image: "https://i.postimg.cc/FKmDDDPZ/IMG-7036.webp",
-    imageHint: "exhibition stall",
-    category: "Events"
   }
 ];
 
