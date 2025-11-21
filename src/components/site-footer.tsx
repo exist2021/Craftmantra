@@ -65,9 +65,9 @@ export function SiteFooter() {
                 <a href="tel:+916362571412" className="hover:text-accent transition-colors">+91 6362 571 412</a>
               </li>
               <li className="flex items-start space-x-2">
-                <a href="https://share.google/EWCf5cJ6me4h7PRSn" target="_blank" rel="noopener noreferrer" className="hover:text-accent transition-colors flex items-center space-x-2">
+                <a href="https://maps.app.goo.gl/uPbbpS9g8sW4s2Wv9" target="_blank" rel="noopener noreferrer" className="hover:text-accent transition-colors flex items-start space-x-2">
                   <MapPin className="h-5 w-5 text-accent mt-1 flex-shrink-0" />
-                  <span>Craft Mantra Store, Manipal, Udupi, Karnataka, India</span>
+                  <span>Ground Floor, Shop 1<br />Pragati Business District,<br />Laxmindra Nagar, Udupi–Manipal Main Road<br />Manipal – 576104, Karnataka, India</span>
                 </a>
               </li>
               <li className="flex items-center space-x-2 pt-2">
