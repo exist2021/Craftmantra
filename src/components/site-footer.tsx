@@ -33,7 +33,7 @@ export function SiteFooter() {
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl font-headline text-primary">Collaborate with Craft Mantra</h2>
           <p className="mt-4 text-muted-foreground md:text-lg/relaxed font-body">
-            Whether you are looking for customized eco-friendly products or seeking a platform for your creations, we are ready to connect. We seek the support of individuals, corporates, organizations, and institutions for promoting our locally made, eco-friendly customized handcrafted products.
+            Be part of the change. Choose handcrafted, eco-friendly products with purpose—or share your own creations with the world. We invite individuals, corporates, organizations, and institutions to stand with us and support locally made, sustainably crafted innovation.
           </p>
         </div>
 
