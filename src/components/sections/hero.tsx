@@ -23,7 +23,7 @@ export function HeroSection() {
                 Craft Mantra is a for-profit social enterprise with a dual-focused vision: people and the environment. A client-centric venture, we offer customized eco-gifting solutions for any event—personal or professional.
               </p>
               <p>
-                Our initiative works to emPOWERing women, artisans, and small local businesses.
+                Our initiative works to empower women, artisans, and small local businesses.
               </p>
               <p>
                 True to our tagline, “Touching Lives While Going Green,” we believe in connecting people, creating meaningful impact in their lives, and staying committed to eco-friendly practices.
@@ -32,10 +32,10 @@ export function HeroSection() {
                 Our unique retail store is designed around the concepts of reuse and upcycling, located in the coastal town of Manipal, Udupi.
               </p>
               <p>
-                We curate mementos, conference kits, souvenirs and other thoughtful, creative products.
+                We curate mementos, conference kits, souvenirs and other thoughtful, creative products, and Craft Mantra offers eco-bags, accessories, décor, and apparel, each rooted in thoughtful design and purposeful craftsmanship.
               </p>
               <p className="font-bold">
-                Let’s join hands to CRAFT ways for a greener world
+                Let’s join hands to CRAFT ways for a greener world.
               </p>
             </div>
           </div>
