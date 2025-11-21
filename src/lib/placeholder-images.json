@@ -35,8 +35,7 @@
       "description": "Conference kits, cloth banners, and other stationery, often produced in bulk for clients.",
       "price": "Inquire for custom pricing",
       "imageUrls": [
-        "https://i.postimg.cc/5ypxQYFW/0c397640-340f-4cdf-b862-d80a67490385.jpg",
-        "https://i.postimg.cc/XqBY6jvR/6ffbb188-b014-4d1c-80a3-c8f14f58f49f.jpg"
+        "https://i.postimg.cc/5ypxQYFW/0c397640-340f-4cdf-b862-d80a67490385.jpg"
       ],
       "imageHint": "conference kit",
       "category": "Stationery"
@@ -47,7 +46,6 @@
       "description": "Eco-conscious home decor made from natural materials.",
       "price": "Varies by item",
       "imageUrls": [
-        "https://i.postimg.cc/kGqry1Fv/098af7f8-9c8c-45d1-925c-340f0fd0c44f.jpg",
         "https://i.postimg.cc/gjm9KSqv/604caddb-0e6b-42b2-bfc8-1d191d38375f.jpg"
       ],
       "imageHint": "home decor",
@@ -71,7 +69,6 @@
       "description": "Curated eco-friendly kits and handicrafts representing local culture.",
       "price": "Inquire for custom kits",
       "imageUrls": [
-        "https://i.postimg.cc/kGqry1v/098af7f8-9c8c-45d1-925c-340f0fd0c44f.jpg",
         "https://i.postimg.cc/PJTGM3zz/e4ce6917-e798-4dfa-8cd0-4dc2ff8f9eda.jpg",
         "https://i.postimg.cc/dtdk3n5G/79f3672a-285f-4611-a5fe-185b9f718a18.jpg",
         "https://i.postimg.cc/DwTWXsNW/a11e8adf-7936-45dd-b9cd-c328f1a50813.jpg",
@@ -80,7 +77,8 @@
         "https://i.postimg.cc/kGXPxpn7/f6d50ac9-e651-47e5-ad70-4c39648fb83b.jpg",
         "https://i.postimg.cc/kGXPxpn7/f6d50ac9-e651-47e5-ad70-4c39648fb83b.jpg",
         "https://i.postimg.cc/kGXPxpn7/f6d50ac9-e651-47e5-ad70-4c39648fb83b.jpg",
-        "https://i.postimg.cc/Kjh6cZ9H/fced2840-72b0-4e95-856e-97f7e03d8daa.jpg"
+        "https://i.postimg.cc/Kjh6cZ9H/fced2840-72b0-4e95-856e-97f7e03d8daa.jpg",
+        "https://i.postimg.cc/PJngft66/2a4ab466-0427-4c15-83da-d480059ae0ca.jpg"
       ],
       "imageHint": "souvenir",
       "category": "Souvenirs"
