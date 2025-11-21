@@ -20,18 +20,6 @@ const allImages = [
     category: "Events"
   },
   {
-    title: "Exhibition",
-    image: "https://i.postimg.cc/FKmDDDPZ/IMG-7036.webp",
-    imageHint: "exhibition stall",
-    category: "Star Showcase"
-  },
-  {
-    title: "With Anil Kumble",
-    image: "https://i.postimg.cc/Nfn06n0t/IMG-7037.webp",
-    imageHint: "Anil Kumble",
-    category: "Star Showcase"
-  },
-  {
     title: "Event Showcase",
     image: "https://i.postimg.cc/4yd4HvG9/IMG-7039.jpg",
     imageHint: "event showcase",
@@ -50,28 +38,16 @@ const allImages = [
     category: "Events"
   },
   {
-    title: "Exhibition View",
-    image: "https://i.postimg.cc/QtSxM42G/IMG-7044.jpg",
-    imageHint: "exhibition view",
-    category: "Star Showcase"
-  },
-  {
     title: "Event Stall",
     image: "https://i.postimg.cc/QtjdhGnq/IMG-7045.jpg",
     imageHint: "event stall",
-    category: "Star Showcase"
+    category: "Events"
   },
   {
     title: "Showcasing Handicrafts",
     image: "https://i.postimg.cc/vBGZbFSN/IMG-7046.jpg",
     imageHint: "handicrafts showcase",
-    category: "Star Showcase"
-  },
-  {
-    title: "Craft Mantra Stall",
-    image: "https://i.postimg.cc/76qZw8QS/IMG-7047.jpg",
-    imageHint: "craft mantra stall",
-    category: "Star Showcase"
+    category: "Events"
   },
   {
     title: "With a Visitor",
@@ -84,6 +60,30 @@ const allImages = [
     image: "https://i.postimg.cc/6QJQbGVw/IMG-7050.jpg",
     imageHint: "event interaction",
     category: "Events"
+  },
+  {
+    title: "Exhibition",
+    image: "https://i.postimg.cc/FKmDDDPZ/IMG-7036.webp",
+    imageHint: "exhibition stall",
+    category: "Star Showcase"
+  },
+  {
+    title: "With Anil Kumble",
+    image: "https://i.postimg.cc/Nfn06n0t/IMG-7037.webp",
+    imageHint: "Anil Kumble",
+    category: "Star Showcase"
+  },
+  {
+    title: "Exhibition View",
+    image: "https://i.postimg.cc/QtSxM42G/IMG-7044.jpg",
+    imageHint: "exhibition view",
+    category: "Star Showcase"
+  },
+  {
+    title: "Craft Mantra Stall",
+    image: "https://i.postimg.cc/76qZw8QS/IMG-7047.jpg",
+    imageHint: "craft mantra stall",
+    category: "Star Showcase"
   },
   {
     title: "Event Showcase",
@@ -116,16 +116,16 @@ const allImages = [
     category: "Star Showcase"
   },
   {
-    title: "Exhibition Booth",
-    image: "https://i.postimg.cc/ZqXjHpKD/eabbeba6-62ca-420d-8781-66519150c688.jpg",
-    imageHint: "exhibition booth",
-    category: "Exhibition"
-  },
-  {
     title: "Event Presentation",
     image: "https://i.postimg.cc/XvtxLd7x/f2195a7c-e88d-4777-a963-0ddce1ab477a.jpg",
     imageHint: "event presentation",
     category: "Star Showcase"
+  },
+  {
+    title: "Exhibition Booth",
+    image: "https://i.postimg.cc/ZqXjHpKD/eabbeba6-62ca-420d-8781-66519150c688.jpg",
+    imageHint: "exhibition booth",
+    category: "Exhibition"
   },
   {
     title: "Store Display",
