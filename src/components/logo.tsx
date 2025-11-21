@@ -7,9 +7,9 @@ export function Logo() {
       <Image
         src="https://i.postimg.cc/ZRfxfXJH/46e799a9-3699-405d-98bf-cb2bd81daa5d.jpg"
         alt="Craft Mantra Logo"
-        width={56}
-        height={56}
-        className="h-14 w-14"
+        width={160}
+        height={40}
+        className="h-10 w-auto"
         priority
       />
     </Link>
