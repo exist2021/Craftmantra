@@ -233,6 +233,10 @@ export function ImpactSection() {
   const filteredImages = activeTab === "All"
     ? allImages
     : allImages.filter((image) => image.category === activeTab);
+    
+  if (activeTab === 'Store') {
+    filteredImages.reverse();
+  }
 
   return (
     <section id="gallery" className="w-full py-12 md:py-24 lg:py-32 bg-secondary/50">
@@ -247,7 +251,7 @@ export function ImpactSection() {
         </div>
         
         <Tabs value={activeTab} onValueChange={setActiveTab} className="w-full max-w-lg mx-auto mb-8">
-          <TabsList className="grid w-full grid-cols-6">
+          <TabsList className="grid grid-cols-6">
             {categories.map((category) => (
               <TabsTrigger key={category} value={category}>{category}</TabsTrigger>
             ))}
@@ -264,7 +268,7 @@ export function ImpactSection() {
           <CarouselContent>
             {filteredImages.map((event, index) => (
               <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/3">
-                <div className="p-1">
+                <div className="p-1 group">
                   <Card>
                     <CardContent className="flex aspect-square items-center justify-center p-0 relative overflow-hidden rounded-lg">
                        <Image
