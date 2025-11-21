@@ -44,22 +44,16 @@ const allImages = [
     category: "Star Showcase"
   },
   {
-    title: "Local Artisans",
-    image: "https://i.postimg.cc/QMF0c0sQ/c23b892a-6b73-4448-abb5-cd5a2aa30045.jpg",
-    imageHint: "local artisans",
-    category: "Events"
-  },
-  {
     title: "Event Presentation",
     image: "https://i.postimg.cc/XvtxLd7x/f2195a7c-e88d-4777-a963-0ddce1ab477a.jpg",
     imageHint: "event presentation",
-    category: "Events"
+    category: "Star Showcase"
   },
   {
     title: "Exhibition View",
     image: "https://i.postimg.cc/QtSxM42G/IMG-7044.jpg",
     imageHint: "exhibition view",
-    category: "Events"
+    category: "Star Showcase"
   },
   {
     title: "Craft Mantra Stall",
@@ -68,22 +62,16 @@ const allImages = [
     category: "Star Showcase"
   },
   {
-    title: "Event Showcase",
-    image: "https://i.postimg.cc/Gp6zKGh5/049a3c4c-f338-4bcd-811a-684c3c5d44e6.jpg",
-    imageHint: "event showcase",
-    category: "Events"
-  },
-  {
     title: "Artisan Market",
     image: "https://i.postimg.cc/C1JLKP30/IMG-7042.jpg",
     imageHint: "artisan market",
-    category: "Events"
+    category: "Star Showcase"
   },
   {
     title: "Event Stall",
     image: "https://i.postimg.cc/QtjdhGnq/IMG-7045.jpg",
     imageHint: "event stall",
-    category: "Events"
+    category: "Star Showcase"
   },
   {
     title: "Exhibition Booth",
@@ -191,7 +179,7 @@ const allImages = [
     title: "Exhibition",
     image: "https://i.postimg.cc/FKmDDDPZ/IMG-7036.webp",
     imageHint: "exhibition stall",
-    category: "Star Showcase"
+    category: "Events"
   }
 ];
 
