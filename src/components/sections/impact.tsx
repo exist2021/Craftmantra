@@ -14,27 +14,9 @@ import { useState } from 'react';
 
 const allImages = [
   {
-    title: "With a Visitor",
-    image: "https://i.postimg.cc/fLMRDngy/IMG-7048.jpg",
-    imageHint: "visitor interaction",
-    category: "Events"
-  },
-  {
-    title: "Event Interaction",
-    image: "https://i.postimg.cc/6QJQbGVw/IMG-7050.jpg",
-    imageHint: "event interaction",
-    category: "Events"
-  },
-  {
     title: "Event Presentation",
     image: "https://i.postimg.cc/XvtxLd7x/f2195a7c-e88d-4777-a963-0ddce1ab477a.jpg",
     imageHint: "event presentation",
-    category: "Star Showcase"
-  },
-  {
-    title: "Artisan Market",
-    image: "https://i.postimg.cc/C1JLKP30/IMG-7042.jpg",
-    imageHint: "artisan market",
     category: "Events"
   },
   {
@@ -44,9 +26,39 @@ const allImages = [
     category: "Events"
   },
   {
+    title: "Artisan Market",
+    image: "https://i.postimg.cc/C1JLKP30/IMG-7042.jpg",
+    imageHint: "artisan market",
+    category: "Star Showcase"
+  },
+  {
     title: "With Anil Kumble",
     image: "https://i.postimg.cc/Nfn06n0t/IMG-7037.webp",
     imageHint: "Anil Kumble",
+    category: "Events"
+  },
+  {
+    title: "Exhibition View",
+    image: "https://i.postimg.cc/QtSxM42G/IMG-7044.jpg",
+    imageHint: "exhibition view",
+    category: "Star Showcase"
+  },
+  {
+    title: "Event Stall",
+    image: "https://i.postimg.cc/QtjdhGnq/IMG-7045.jpg",
+    imageHint: "event stall",
+    category: "Star Showcase"
+  },
+  {
+    title: "Event Interaction",
+    image: "https://i.postimg.cc/6QJQbGVw/IMG-7050.jpg",
+    imageHint: "event interaction",
+    category: "Star Showcase"
+  },
+  {
+    title: "With a Visitor",
+    image: "https://i.postimg.cc/fLMRDngy/IMG-7048.jpg",
+    imageHint: "visitor interaction",
     category: "Events"
   },
   {
@@ -56,22 +68,10 @@ const allImages = [
     category: "Events"
   },
   {
-    title: "Exhibition View",
-    image: "https://i.postimg.cc/QtSxM42G/IMG-7044.jpg",
-    imageHint: "exhibition view",
-    category: "Events"
-  },
-  {
     title: "Craft Mantra Stall",
     image: "https://i.postimg.cc/76qZw8QS/IMG-7047.jpg",
     imageHint: "craft mantra stall",
-    category: "Star Showcase"
-  },
-  {
-    title: "Event Stall",
-    image: "https://i.postimg.cc/QtjdhGnq/IMG-7045.jpg",
-    imageHint: "event stall",
-    category: "Star Showcase"
+    category: "Events"
   },
   {
     title: "Store Display",
