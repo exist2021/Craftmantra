@@ -11,7 +11,7 @@ export function FounderSection() {
             </h2>
             <div className="space-y-4 text-muted-foreground md:text-lg/relaxed font-body">
               <p>
-                Rtn PHF Renu Jayaram is a Social Entrepreneur with over 20 years of business experience, always driven to be a job provider rather than a job seeker. As an art lover, she founded Craft Mantra in 2018 as a concept store and a platform to pursue her dream of empowering women and giving opportunities to hidden local artisans.
+                Rtn PHF Renu Jayaram is a Social Entrepreneur with over 20 years of business experience, always driven to be a job provider rather than a job seeker. As an art lover, she founded Craft Mantra in 2018 as a concept store and a platform to pursue her dream of emPOWERing women and giving opportunities to hidden local artisans.
               </p>
               <p>
                 Craft Mantra is built on a philosophy where empathy, humanity, and kindness are prioritized over numbers and profits. It is a place where product innovation is key, and ideas are valued. Renu's "success mantra" is simple: "build relationships and business will follow".
