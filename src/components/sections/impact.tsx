@@ -35,7 +35,7 @@ const allImages = [
     title: "With Anil Kumble",
     image: "https://i.postimg.cc/Nfn06n0t/IMG-7037.webp",
     imageHint: "Anil Kumble",
-    category: "Celebrity"
+    category: "Star Showcase"
   },
   {
     title: "Event Showcase",
@@ -225,7 +225,7 @@ const allImages = [
   }
 ];
 
-const categories = ["All", "Store", "CSR", "Exhibition", "Events", "Celebrity"];
+const categories = ["All", "Store", "CSR", "Exhibition", "Events", "Star Showcase"];
 
 export function ImpactSection() {
   const [activeTab, setActiveTab] = useState("All");
