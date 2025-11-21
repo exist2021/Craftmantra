@@ -18,9 +18,26 @@ export function HeroSection() {
             <h2 className="text-2xl font-headline text-accent sm:text-3xl">
               emPOWERing Women, Artisans & Small Businesses
             </h2>
-            <p className="max-w-[800px] mx-auto text-foreground md:text-lg font-body">
-              Welcome to Craft Mantra, a for-profit social enterprise with a dual focus: People and the Environment. We offer customized eco-friendly gifting solutions based on innovative upcycling. Our mission is to provide alternatives to market waste by creating new value and giving materials a second utility through thoughtful design. Our space in the coastal town of Manipal, Udupi, is an open and joyful Concept Store. We invite you to explore thoughtful, sustainable products that make Mother Earth breathe easier.
-            </p>
+            <div className="max-w-[800px] mx-auto text-foreground md:text-lg font-body space-y-4">
+              <p>
+                Craft Mantra is a for-profit social enterprise with a dual-focused vision: people and the environment. A client-centric venture, we offer customized eco-gifting solutions for any event—personal or professional.
+              </p>
+              <p>
+                Our initiative works to emPOWERing women, artisans, and small local businesses.
+              </p>
+              <p>
+                True to our tagline, “Touching Lives While Going Green,” we believe in connecting people, creating meaningful impact in their lives, and staying committed to eco-friendly practices.
+              </p>
+              <p>
+                Our unique retail store is designed around the concepts of reuse and upcycling, located in the coastal town of Manipal, Udupi.
+              </p>
+              <p>
+                We curate mementos, conference kits, souvenirs and other thoughtful, creative products.
+              </p>
+              <p className="font-bold">
+                Let’s join hands to CRAFT ways for a greener world
+              </p>
+            </div>
           </div>
           <div className="w-full max-w-2xl pt-8">
             <Tabs defaultValue="vision" className="w-full">
