@@ -4,7 +4,7 @@ export function AboutSection() {
       <div className="container px-4 md:px-6">
         <div className="text-center mb-12">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl font-headline text-primary">
-              About the Company
+              Our Story
             </h2>
         </div>
 
