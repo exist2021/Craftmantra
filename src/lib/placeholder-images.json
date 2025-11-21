@@ -21,8 +21,7 @@
       "description": "Useful by design, memorable by impact — creatively crafted wooden and terracotta mementos.",
       "price": "Inquire for bulk orders",
       "imageUrls": [
-        "https://i.postimg.cc/J0Cf71Tj/cb9af697-42b5-4828-b80b-ec33015e7610.jpg",
-        "https://i.postimg.cc/kGP0Mnjx/f1a0cd64-21ca-41cd-8512-1acd87f1f5b6.jpg"
+        "https://i.postimg.cc/J0Cf71Tj/cb9af697-42b5-4828-b80b-ec33015e7610.jpg"
       ],
       "imageHint": "wood carving",
       "category": "Mementos"
@@ -30,7 +29,7 @@
     {
       "id": "accessories-1",
       "name": "Stationery",
-      "description": "Conference kits, cloth banners, and other stationery, often produced in bulk for clients.",
+      "description": "Conference kits, file folders, and stationery that are sustainable, stylish, and impossible to ignore.",
       "price": "Inquire for custom pricing",
       "imageUrls": [
         "https://i.postimg.cc/5ypxQYFW/0c397640-340f-4cdf-b862-d80a67490385.jpg"
@@ -67,7 +66,7 @@
       "description": "Artful wooden and terracotta keepsakes that bring local culture to life.",
       "price": "Inquire for custom kits",
       "imageUrls": [
-        "https://i.postimg.cc/R0yr81wS/00ec621e-06fa-4055-a174-eea37932f3fb.jpg"
+        "https://i.postimg.cc/kGP0Mnjx/f1a0cd64-21ca-41cd-8512-1acd87f1f5b6.jpg"
       ],
       "imageHint": "souvenir",
       "category": "Souvenirs"
