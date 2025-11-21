@@ -29,7 +29,7 @@ const allImages = [
     title: "Exhibition",
     image: "https://i.postimg.cc/FKmDDDPZ/IMG-7036.webp",
     imageHint: "exhibition stall",
-    category: "Exhibition"
+    category: "Star Showcase"
   },
   {
     title: "With Anil Kumble",
@@ -71,7 +71,7 @@ const allImages = [
     title: "Showcasing Handicrafts",
     image: "https://i.postimg.cc/vBGZbFSN/IMG-7046.jpg",
     imageHint: "handicrafts showcase",
-    category: "Exhibition"
+    category: "Star Showcase"
   },
   {
     title: "Craft Mantra Stall",
@@ -95,7 +95,7 @@ const allImages = [
     title: "Event Showcase",
     image: "https://i.postimg.cc/Gp6zKGh5/049a3c4c-f338-4bcd-811a-684c3c5d44e6.jpg",
     imageHint: "event showcase",
-    category: "Events"
+    category: "Star Showcase"
   },
   {
     title: "Community Interaction",
@@ -113,7 +113,7 @@ const allImages = [
     title: "Craft Fair Display",
     image: "https://i.postimg.cc/ZqXjHpKV/5274bfde-e611-498b-b4ee-2b574beb44bd.jpg",
     imageHint: "craft fair",
-    category: "Exhibition"
+    category: "Star Showcase"
   },
   {
     title: "Local Artisans",
@@ -131,7 +131,7 @@ const allImages = [
     title: "Event Presentation",
     image: "https://i.postimg.cc/XvtxLd7x/f2195a7c-e88d-4777-a963-0ddce1ab477a.jpg",
     imageHint: "event presentation",
-    category: "Events"
+    category: "Star Showcase"
   },
   {
     title: "Store Display",
