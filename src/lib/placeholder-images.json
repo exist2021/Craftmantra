@@ -23,7 +23,7 @@
     },
     {
       "id": "memento-1",
-      "name": "Gifts & Mementos",
+      "name": "Mementos",
       "description": "Useful by design, memorable by impact — creatively crafted wooden and terracotta mementos.",
       "price": "Inquire for bulk orders",
       "imageUrls": [
@@ -56,7 +56,7 @@
     },
     {
       "id": "decor-1",
-      "name": "Home & Decor",
+      "name": "Decor",
       "description": "Creative Eco-chic décor that instantly lifts any space.",
       "price": "Varies by item",
       "imageUrls": [
@@ -114,3 +114,5 @@
     }
   ]
 }
+
+    
