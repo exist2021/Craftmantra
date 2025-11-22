@@ -71,9 +71,7 @@
       "name": "Souvenirs & Handicrafts",
       "description": "Artful wooden and terracotta keepsakes that bring local culture to life.",
       "price": "Inquire for custom kits",
-      "imageUrls": [
-        "https://i.postimg.cc/kGP0Mnjx/f1a0cd64-21ca-41cd-8512-1acd87f1f5b6.jpg"
-      ],
+      "imageUrls": [],
       "imageHint": "souvenir",
       "category": "Souvenirs"
     }
