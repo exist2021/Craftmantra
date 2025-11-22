@@ -71,7 +71,25 @@
       "name": "Souvenirs & Handicrafts",
       "description": "Artful wooden and terracotta keepsakes that bring local culture to life.",
       "price": "Inquire for custom kits",
-      "imageUrls": [],
+      "imageUrls": [
+        "https://i.postimg.cc/kgH8GpmM/107d3589-117a-4c7e-a3e2-ed6e81f049d4.jpg",
+        "https://i.postimg.cc/jS2PsrGb/238fae57-95c4-4f88-8ce9-896b8a73ad07.jpg",
+        "https://i.postimg.cc/qvFnq5T4/4101b6ee-7955-4993-a90c-018a1d3b6c6e.jpg",
+        "https://i.postimg.cc/x1ZH842Y/42ac2745-bea7-4201-a18d-9bd377254700.jpg",
+        "https://i.postimg.cc/BnzDbV08/5f389b81-c70f-42d9-b9df-c008dae0f319.jpg",
+        "https://i.postimg.cc/YC0YpwJM/65b17b53-4a81-475b-bf44-c26e8c0b977c.jpg",
+        "https://i.postimg.cc/VkhMvV85/6c4cf716-9ca4-4c4e-b152-cc18951b0b1a.jpg",
+        "https://i.postimg.cc/BnzDbV05/7c540cde-291f-4b3a-963a-265cd2583e32.jpg",
+        "https://i.postimg.cc/bw5brBh2/9b162dfa-c2c9-474b-bb9b-a8fb2ebe8cea.jpg",
+        "https://i.postimg.cc/02c7RNXW/b346f1b3-1c35-41bf-a2d7-8cd49ac264ac.jpg",
+        "https://i.postimg.cc/XYPFqzbC/bab17225-d517-476a-a4ea-aacc58d7fa2f.jpg",
+        "https://i.postimg.cc/dV3rqKzP/d5d97646-d972-496d-9bff-10b5bfe71e90.jpg",
+        "https://i.postimg.cc/nhW7rPJX/e444a437-b7f6-4dd9-9d7b-031c1cc091c9.jpg",
+        "https://i.postimg.cc/dV3rqKgN/ecbcf355-f808-45e6-980e-666643b664f5.jpg",
+        "https://i.postimg.cc/htYxv5Bn/ee23d7e2-a3b0-4319-938e-ce4ca0871a95.jpg",
+        "https://i.postimg.cc/y8xcVz22/f4527f54-9920-46e4-855f-947c912d0192.jpg",
+        "https://i.postimg.cc/MpLRHFSB/fdb90e8d-f4ba-4b7d-a428-c14dae06f4d5.jpg"
+      ],
       "imageHint": "souvenir",
       "category": "Souvenirs"
     }
