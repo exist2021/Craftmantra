@@ -34,7 +34,7 @@
     },
     {
       "id": "accessories-1",
-      "name": "Stationery",
+      "name": "Stationery & Accessories",
       "description": "Conference kits, file folders, and stationery that are sustainable, stylish, and impossible to ignore.",
       "price": "Inquire for custom pricing",
       "imageUrls": [
@@ -52,7 +52,7 @@
         "https://i.postimg.cc/zXxs6nn6/f052e399-a255-40a5-ac87-469041ebffb6.jpg"
       ],
       "imageHint": "conference kit",
-      "category": "Stationery"
+      "category": "Stationery & Accessories"
     },
     {
       "id": "decor-1",
@@ -67,7 +67,7 @@
     },
     {
       "id": "tshirt-1",
-      "name": "Apparel & Accessories",
+      "name": "Apparel",
       "description": "Standout custom merch and lifestyle essentials designed to power up your events, teams, and organizations.",
       "price": "Inquire for bulk orders",
       "imageUrls": [
@@ -80,7 +80,7 @@
         "https://i.postimg.cc/yxpKz5JR/f54b775e-88a2-42b5-bbea-3c2b88282990.jpg"
       ],
       "imageHint": "t-shirt",
-      "category": "Apparel & Accessories"
+      "category": "Apparel"
     },
     {
       "id": "kit-1",
