@@ -32,7 +32,7 @@ export function HeroSection() {
                 Our unique retail store is designed around the concepts of reuse and upcycling, located in the coastal town of Manipal, Udupi.
               </p>
               <p>
-                We curate mementos, conference kits, souvenirs and other thoughtful, creative products, and Craft Mantra offers eco-bags, accessories, décor, and apparel, each rooted in thoughtful design and purposeful craftsmanship.
+                We curate mementos, conference kits, souvenirs and other creative products. Each rooted in thoughtful design and purposeful craftsmanship.
               </p>
             </div>
           </div>
