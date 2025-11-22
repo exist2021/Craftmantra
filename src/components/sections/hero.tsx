@@ -34,6 +34,9 @@ export function HeroSection() {
               <p>
                 We curate mementos, conference kits, souvenirs and other creative products. Each rooted in thoughtful design and purposeful craftsmanship.
               </p>
+              <p>
+                Our product range also includes eco bags, decor, accessories, apparels and more.
+              </p>
             </div>
           </div>
           <div className="w-full max-w-2xl pt-8">
