@@ -10,7 +10,7 @@ import {
   CarouselPrevious,
 } from "@/components/ui/carousel";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import { useState } from 'react';
+import { useState, useMemo } from 'react';
 import { cn } from '@/lib/utils';
 
 const allImages = [
@@ -135,7 +135,6 @@ const allImages = [
   { title: "Star Showcase Image 31", image: "https://i.postimg.cc/W1mCrgf0/ffc7d4ba-2020-4321-8c7b-cc114a78dd9d.jpg", imageHint: "star showcase", category: "Star Showcase" },
   { title: "Star Showcase Image 32", image: "https://i.postimg.cc/XvkWVTbq/IMG-7368.jpg", imageHint: "star showcase", category: "Star Showcase" },
   { title: "Star Showcase Image 33", image: "https://i.postimg.cc/s2sF0wZK/IMG-7372.jpg", imageHint: "star showcase", category: "Star Showcase" },
-  { title: "Events Image 1", image: "https://i.postimg.cc/Gpd0Sqsv/5f0cd811-c5f7-408e-93fd-21a36d11ecdc.jpg", imageHint: "event image", category: "Events" },
   { title: "Events Image 2", image: "https://i.postimg.cc/W3c77HFN/12af999f-6c0f-4e1e-ae0f-b494f642eabc.jpg", imageHint: "event image", category: "Events" },
   { title: "Events Image 3", image: "https://i.postimg.cc/D02d94c8/20edaab4-eda1-4d37-a560-dd95d74b8b06.jpg", imageHint: "event image", category: "Events" },
   { title: "Events Image 4", image: "https://i.postimg.cc/tgx5WjT9/2b0b405b-ead6-402f-972c-48e5db15670e.jpg", imageHint: "event image", category: "Events" },
@@ -199,10 +198,38 @@ function GalleryImage({ image }: { image: { title: string; image: string, imageH
   );
 }
 
+function GalleryTab({ category, activeTab, setActiveTab }: { category: string; activeTab: string; setActiveTab: (category: string) => void; }) {
+  const images = useMemo(() => {
+    return activeTab === 'All' ? allImages : allImages.filter(image => image.category === activeTab);
+  }, [activeTab]);
+
+  return (
+    <TabsContent value={category}>
+      <Carousel
+        opts={{
+          align: "start",
+          loop: false,
+        }}
+        className="w-full mt-8"
+      >
+        <CarouselContent>
+          {images.map((image, index) => (
+            <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/3">
+              <div className="p-2">
+                <GalleryImage image={image} />
+              </div>
+            </CarouselItem>
+          ))}
+        </CarouselContent>
+        <CarouselPrevious className="absolute left-2 top-1/2 -translate-y-1/2 z-10" />
+        <CarouselNext className="absolute right-2 top-1/2 -translate-y-1/2 z-10" />
+      </Carousel>
+    </TabsContent>
+  );
+}
+
 export function ImpactSection() {
   const [activeTab, setActiveTab] = useState(allCategories[0]);
-
-  const filteredImages = activeTab === 'All' ? allImages : allImages.filter(image => image.category === activeTab);
 
   return (
     <section id="gallery" className="w-full py-12 md:py-24 lg:py-32">
@@ -226,27 +253,9 @@ export function ImpactSection() {
               ))}
             </TabsList>
             
-            <TabsContent value={activeTab}>
-              <Carousel
-                opts={{
-                  align: "start",
-                  loop: false,
-                }}
-                className="w-full mt-8"
-              >
-                <CarouselContent>
-                  {filteredImages.map((image, index) => (
-                    <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/3">
-                      <div className="p-2">
-                          <GalleryImage image={image} />
-                      </div>
-                    </CarouselItem>
-                  ))}
-                </CarouselContent>
-                <CarouselPrevious className="absolute left-2 top-1/2 -translate-y-1/2 z-10" />
-                <CarouselNext className="absolute right-2 top-1/2 -translate-y-1/2 z-10" />
-              </Carousel>
-            </TabsContent>
+            {allCategories.map((category) => (
+              <GalleryTab key={category} category={category} activeTab={activeTab} setActiveTab={setActiveTab} />
+            ))}
           </Tabs>
         </div>
 
