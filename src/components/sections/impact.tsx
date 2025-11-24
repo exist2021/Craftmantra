@@ -158,9 +158,16 @@ const allImages = [
   { title: "Events Image 20", image: "https://i.postimg.cc/wxhGnhgW/IMG-7369.jpg", imageHint: "event image", category: "Events" },
   { title: "Events Image 21", image: "https://i.postimg.cc/fWj88Dv3/IMG-7373.jpg", imageHint: "event image", category: "Events" },
   { title: "Events Image 22", image: "https://i.postimg.cc/90JtCXxB/IMG-7483.jpg", imageHint: "event image", category: "Events" },
+  { title: "Happy Clients Image 1", image: "https://i.postimg.cc/JnY908YF/065f5031-3775-44bc-a5aa-b16edd1370da.jpg", imageHint: "happy client", category: "Happy Clients" },
+  { title: "Happy Clients Image 2", image: "https://i.postimg.cc/L5HBcgVR/b961a999-39c0-4860-a26f-995ad464fd0a.jpg", imageHint: "happy client", category: "Happy Clients" },
+  { title: "Happy Clients Image 3", image: "https://i.postimg.cc/fWj88Dv3/IMG-7373.jpg", imageHint: "happy client", category: "Happy Clients" },
+  { title: "Happy Clients Image 4", image: "https://i.postimg.cc/05FyH15t/31fcea1a-f5bc-4db3-aa2a-7fd63ab40072.jpg", imageHint: "happy client", category: "Happy Clients" },
+  { title: "Happy Clients Image 5", image: "https://i.postimg.cc/SRBQXCtS/8e3b7dfa-c194-4c4d-8488-dbe290b8f20d.jpg", imageHint: "happy client", category: "Happy Clients" },
+  { title: "Happy Clients Image 6", image: "https://i.postimg.cc/wMCxtLbv/b16c9974-9006-4c7d-867d-1221b5cfadd3.jpg", imageHint: "happy client", category: "Happy Clients" },
+  { title: "Happy Clients Image 7", image: "https://i.postimg.cc/Y0524Yy7/b995583a-1c18-47dd-8731-e46f1928a566.jpg", imageHint: "happy client", category: "Happy Clients" },
 ];
 
-const categories = ["All", "Store", "CSR", "Exhibition", "Events", "Star Showcase"];
+const categories = ["All", "Store", "CSR", "Happy Clients", "Events", "Star Showcase"];
 
 export function ImpactSection() {
   const [activeTab, setActiveTab] = useState("All");
