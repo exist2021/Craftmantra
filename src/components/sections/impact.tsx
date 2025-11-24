@@ -227,7 +227,7 @@ export function ImpactSection() {
             </TabsList>
             
             {allCategories.map((category) => (
-              <TabsContent key={category} value={category} forceMount={activeTab === category} className={cn(activeTab === category ? 'block' : 'hidden')}>
+              <TabsContent key={category} value={category} forceMount={true} className={cn(activeTab === category ? 'block' : 'hidden')}>
                  <Carousel
                   opts={{
                     align: "start",
