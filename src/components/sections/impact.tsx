@@ -116,12 +116,6 @@ const allImages = [
     category: "Events"
   },
   {
-    title: "With Anil Kumble",
-    image: "https://i.postimg.cc/Nfn06n0t/IMG-7037.webp",
-    imageHint: "Anil Kumble",
-    category: "Star Showcase"
-  },
-  {
     title: "Event Interaction",
     image: "https://i.postimg.cc/6QJQbGVw/IMG-7050.jpg",
     imageHint: "event interaction",
@@ -132,12 +126,6 @@ const allImages = [
     image: "https://i.postimg.cc/FKmDDDPZ/IMG-7036.webp",
     imageHint: "exhibition stall",
     category: "Events"
-  },
-  {
-    title: "Craft Mantra Stall",
-    image: "https://i.postimg.cc/76qZw8QS/IMG-7047.jpg",
-    imageHint: "craft mantra stall",
-    category: "Star Showcase"
   },
   {
     title: "Exhibition Booth",
@@ -165,7 +153,7 @@ const allImages = [
   }
 ];
 
-const categories = ["All", "Store", "CSR", "Exhibition", "Events", "Star Showcase"];
+const categories = ["All", "Store", "CSR", "Exhibition", "Events"];
 
 export function ImpactSection() {
   const [activeTab, setActiveTab] = useState("All");
