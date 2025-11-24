@@ -18,7 +18,7 @@ export function HeroSection() {
             <h2 className="text-2xl font-headline text-accent sm:text-3xl">
               emPOWERing Women, Artisans & Small Businesses
             </h2>
-            <div className="max-w-[800px] mx-auto text-foreground md:text-lg font-body space-y-4">
+            <div className="max-w-[800px] mx-auto text-foreground/90 md:text-lg font-body space-y-4">
               <p>
                 Craft Mantra is a for-profit social enterprise with a dual-focused vision: people and the environment. A client-centric venture, we offer customized eco-gifting solutions for any event—personal or professional.
               </p>
@@ -48,13 +48,13 @@ export function HeroSection() {
               <TabsContent value="vision">
                 <div className="p-6 pt-8 bg-background/50 rounded-b-lg rounded-tr-lg text-center space-y-4">
                   <HandHeart className="w-12 h-12 text-accent mx-auto" />
-                  <p className="text-lg font-body text-foreground/80">{vision}</p>
+                  <p className="text-lg font-body text-foreground">{vision}</p>
                 </div>
               </TabsContent>
               <TabsContent value="mission">
                  <div className="p-6 pt-8 bg-background/50 rounded-b-lg rounded-tl-lg text-center space-y-4">
                   <Leaf className="w-12 h-12 text-accent mx-auto" />
-                  <p className="text-lg font-body text-foreground/80">{mission}</p>
+                  <p className="text-lg font-body text-foreground">{mission}</p>
                 </div>
               </TabsContent>
             </Tabs>
