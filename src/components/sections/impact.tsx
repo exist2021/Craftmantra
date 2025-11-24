@@ -202,6 +202,8 @@ function GalleryImage({ image }: { image: { title: string; image: string, imageH
 export function ImpactSection() {
   const [activeTab, setActiveTab] = useState(allCategories[0]);
 
+  const filteredImages = activeTab === 'All' ? allImages : allImages.filter(image => image.category === activeTab);
+
   return (
     <section id="gallery" className="w-full py-12 md:py-24 lg:py-32">
       <div className="container px-4 md:px-6">
@@ -224,29 +226,27 @@ export function ImpactSection() {
               ))}
             </TabsList>
             
-            {allCategories.map((category) => (
-              <TabsContent key={category} value={category} forceMount={true} className={cn(activeTab === category ? 'block' : 'hidden')}>
-                 <Carousel
-                  opts={{
-                    align: "start",
-                    loop: false,
-                  }}
-                  className="w-full mt-8"
-                >
-                  <CarouselContent>
-                    {(category === "All" ? allImages : allImages.filter(image => image.category === category)).map((image, index) => (
-                      <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/3">
-                        <div className="p-2">
-                            <GalleryImage image={image} />
-                        </div>
-                      </CarouselItem>
-                    ))}
-                  </CarouselContent>
-                  <CarouselPrevious className="absolute left-2 top-1/2 -translate-y-1/2 z-10" />
-                  <CarouselNext className="absolute right-2 top-1/2 -translate-y-1/2 z-10" />
-                </Carousel>
-              </TabsContent>
-            ))}
+            <TabsContent value={activeTab} forceMount={true}>
+              <Carousel
+                opts={{
+                  align: "start",
+                  loop: false,
+                }}
+                className="w-full mt-8"
+              >
+                <CarouselContent>
+                  {filteredImages.map((image, index) => (
+                    <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/3">
+                      <div className="p-2">
+                          <GalleryImage image={image} />
+                      </div>
+                    </CarouselItem>
+                  ))}
+                </CarouselContent>
+                <CarouselPrevious className="absolute left-2 top-1/2 -translate-y-1/2 z-10" />
+                <CarouselNext className="absolute right-2 top-1/2 -translate-y-1/2 z-10" />
+              </Carousel>
+            </TabsContent>
           </Tabs>
         </div>
 
