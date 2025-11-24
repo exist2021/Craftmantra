@@ -103,54 +103,6 @@ const allImages = [
     imageHint: "local crafts",
     category: "Store"
   },
-  {
-    title: "With a Visitor",
-    image: "https://i.postimg.cc/fLMRDngy/IMG-7048.jpg",
-    imageHint: "visitor interaction",
-    category: "Events"
-  },
-  {
-    title: "Artisan Market",
-    image: "https://i.postimg.cc/C1JLKP30/IMG-7042.jpg",
-    imageHint: "artisan market",
-    category: "Events"
-  },
-  {
-    title: "Event Interaction",
-    image: "https://i.postimg.cc/6QJQbGVw/IMG-7050.jpg",
-    imageHint: "event interaction",
-    category: "Events"
-  },
-  {
-    title: "Exhibition",
-    image: "https://i.postimg.cc/FKmDDDPZ/IMG-7036.webp",
-    imageHint: "exhibition stall",
-    category: "Events"
-  },
-  {
-    title: "Exhibition Booth",
-    image: "https://i.postimg.cc/ZqXjHpKD/eabbeba6-62ca-420d-8781-66519150c688.jpg",
-    imageHint: "exhibition booth",
-    category: "Events"
-  },
-  {
-    title: "Event Presentation",
-    image: "https://i.postimg.cc/XvtxLd7x/f2195a7c-e88d-4777-a963-0ddce1ab477a.jpg",
-    imageHint: "event presentation",
-    category: "Events"
-  },
-  {
-    title: "Exhibition View",
-    image: "https://i.postimg.cc/QtSxM42G/IMG-7044.jpg",
-    imageHint: "exhibition view",
-    category: "Events"
-  },
-  {
-    title: "Event Stall",
-    image: "https://i.postimg.cc/QtjdhGnq/IMG-7045.jpg",
-    imageHint: "event stall",
-    category: "Events"
-  },
   { title: "Star Showcase Image 1", image: "https://i.postimg.cc/JnY908YF/065f5031-3775-44bc-a5aa-b16edd1370da.jpg", imageHint: "star showcase", category: "Star Showcase" },
   { title: "Star Showcase Image 2", image: "https://i.postimg.cc/8cq9dHS2/0a567a7e-9e8f-4af7-a5cb-b395164b0b2b.jpg", imageHint: "star showcase", category: "Star Showcase" },
   { title: "Star Showcase Image 3", image: "https://i.postimg.cc/rwG3WxYh/10fddfb0-be12-4839-a84a-4bbcd42870bc.jpg", imageHint: "star showcase", category: "Star Showcase" },
