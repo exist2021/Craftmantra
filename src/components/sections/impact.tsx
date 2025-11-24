@@ -151,7 +151,7 @@ const allImages = [
   { title: "Events Image 13", image: "https://i.postimg.cc/cCsMptB9/85043572-fb62-4ebd-b928-c5c06cbaae07.jpg", imageHint: "event image", category: "Events" },
   { title: "Events Image 14", image: "https://i.postimg.cc/Wz26Bq7T/8ed1979a-c12b-4a4d-97d2-779c7e38af8b.jpg", imageHint: "event image", category: "Events" },
   { title: "Events Image 15", image: "https://i.postimg.cc/L5HBcgVR/b961a999-39c0-4860-a26f-995ad464fd0a.jpg", imageHint: "event image", category: "Events" },
-  { title: "Events Image 16", image: "https://i.postimg.cc/G35QxDhQ/ba5b2089-_8ec-428a-adae-33fcf215a815.jpg", imageHint: "event image", category: "Events" },
+  { title: "Events Image 16", image: "https://i.postimg.cc/QC0khN6x/b9699b17-38ec-428a-adae-33fcf215a815.jpg", imageHint: "event image", category: "Events" },
   { title: "Events Image 17", image: "https://i.postimg.cc/wj3FxJYx/c23fa55b-ad64-45fc-af48-905b7ed3bc25.jpg", imageHint: "event image", category: "Events" },
   { title: "Events Image 18", image: "https://i.postimg.cc/yxvXs6fh/ca5d945e-0032-4239-b5ee-e5565ce4d9cc.jpg", imageHint: "event image", category: "Events" },
   { title: "Events Image 19", image: "https://i.postimg.cc/tgx5WjT4/dd173c18-efcc-49f6-8a6c-3ad7794b56dc.jpg", imageHint: "event image", category: "Events" },
@@ -161,103 +161,102 @@ const allImages = [
   { title: "Happy Clients Image 1", image: "https://i.postimg.cc/JnY908YF/065f5031-3775-44bc-a5aa-b16edd1370da.jpg", imageHint: "happy client", category: "Happy Clients" },
   { title: "Happy Clients Image 2", image: "https://i.postimg.cc/L5HBcgVR/b961a999-39c0-4860-a26f-995ad464fd0a.jpg", imageHint: "happy client", category: "Happy Clients" },
   { title: "Happy Clients Image 3", image: "https://i.postimg.cc/fWj88Dv3/IMG-7373.jpg", imageHint: "happy client", category: "Happy Clients" },
-  { title: "Happy Clients Image 4", image: "https://i.postimg.cc/tYqhmB6b/cf743d14-_f5bc-4db3-aa2a-7fd63ab40072.jpg", imageHint: "happy client", category: "Happy Clients" },
+  { title: "Happy Clients Image 4", image: "https://i.postimg.cc/05FyH15t/31fcea1a-f5bc-4db3-aa2a-7fd63ab40072.jpg", imageHint: "happy client", category: "Happy Clients" },
   { title: "Happy Clients Image 5", image: "https://i.postimg.cc/SRBQXCtS/8e3b7dfa-c194-4c4d-8488-dbe290b8f20d.jpg", imageHint: "happy client", category: "Happy Clients" },
   { title: "Happy Clients Image 6", image: "https://i.postimg.cc/wMCxtLbv/b16c9974-9006-4c7d-867d-1221b5cfadd3.jpg", imageHint: "happy client", category: "Happy Clients" },
   { title: "Happy Clients Image 7", image: "https://i.postimg.cc/Y0524Yy7/b995583a-1c18-47dd-8731-e46f1928a566.jpg", imageHint: "happy client", category: "Happy Clients" },
-  { title: "CSR Image 2", image: "https://i.postimg.cc/7P3qXGck/265f829f-1728-4f2c-a861-47b345d929c4.jpg", imageHint: "csr event", category: "CSR" },
-  { title: "CSR Image 3", image: "https://i.postimg.cc/PJjTTTLx/267bc678-c377-4f9d-a749-b034e6a06f4a.jpg", imageHint: "csr event", category: "CSR" },
-  { title: "CSR Image 4", image: "https://i.postimg.cc/LsGmQz2L/3fadcf5f-2d9a-483c-accb-d9f11569b48d.jpg", imageHint: "csr event", category: "CSR" },
-  { title: "CSR Image 5", image: "https://i.postimg.cc/HLFTvQd2/406e4000-84bc-4672-8836-f3b3470cc425.jpg", imageHint: "csr event", category: "CSR" },
-  { title: "CSR Image 6", image: "https://i.postimg.cc/br98vWby/4c9f3eb8-ba5d-4a5c-bebb-cb1d1b54eefa.jpg", imageHint: "csr event", category: "CSR" },
-  { title: "CSR Image 7", image: "https://i.postimg.cc/wBn94hgt/4fe92418-0b18-4704-9fba-e624a640fcd9.jpg", imageHint: "csr event", category: "CSR" },
-  { title: "CSR Image 8", image: "https://i.postimg.cc/QNQjS9PV/51867419-e749-499a-b8df-c0b56309c28c.jpg", imageHint: "csr event", category: "CSR" },
-  { title: "CSR Image 9", image: "https://i.postimg.cc/W3rTBh1n/5593a79e-1738-4bc3-b167-dca353cbb213.jpg", imageHint: "csr event", category: "CSR" },
-  { title: "CSR Image 10", image: "https://i.postimg.cc/MTRqCvpR/5b774a75-d9d9-40f1-a21f-f2f1bcfe0054.jpg", imageHint: "csr event", category: "CSR" },
-  { title: "CSR Image 11", image: "https://i.postimg.cc/d1dwbLV6/73b05eef-0ae0-478e-9c28-79f34d005014.jpg", imageHint: "csr event", category: "CSR" },
-  { title: "CSR Image 12", image: "https://i.postimg.cc/63RtkypZ/8917224b-2c07-41cb-b635-0a141fa34705.jpg", imageHint: "csr event", category: "CSR" },
-  { title: "CSR Image 13", image: "https://i.postimg.cc/RhL90yfM/895ce9f2-0083-48ea-9e3b-24ca9eeb3e99.jpg", imageHint: "csr event", category: "CSR" },
-  { title: "CSR Image 14", image: "https://i.postimg.cc/Kj2xxxKS/8c976782-4453-4cb6-983a-b1ff1da9a494.jpg", imageHint: "csr event", category: "CSR" },
-  { title: "CSR Image 15", image: "https://i.postimg.cc/Ss8kBJxZ/9feb78c0-685f-4c0f-8256-3051bdedded0.jpg", imageHint: "csr event", category: "CSR" },
-  { title: "CSR Image 16", image: "https://i.postimg.cc/T1JGPFmy/ad6068e2-838d-46a5-9685-1cba5febb132.jpg", imageHint: "csr event", category: "CSR" },
-  { title: "CSR Image 17", image: "https://i.postimg.cc/0jsPPPzH/c567c43f-bd8c-4388-9c8f-b5a0b1279afa.jpg", imageHint: "csr event", category: "CSR" },
-  { title: "CSR Image 18", image: "https://i.postimg.cc/05Y9ZM3R/c9bd24fa-1c56-48ef-a02d-78dadd7ac712.jpg", imageHint: "csr event", category: "CSR" },
-  { title: "CSR Image 19", image: "https://i.postimg.cc/hjxckftT/d1d3fc82-7abf-4fae-bacc-07cef2abb600.jpg", imageHint: "csr event", category: "CSR" },
-  { title: "CSR Image 20", image: "https://i.postimg.cc/Xqb444Zn/d44ccf7f-e993-4987-b762-a5984259c435.jpg", imageHint: "csr event", category: "CSR" },
-  { title: "CSR Image 21", image: "https://i.postimg.cc/MHmxGNR9/d4bdfa44-626d-4901-a500-f832fba1ed21.jpg", imageHint: "csr event", category: "CSR" },
-  { title: "CSR Image 22", image: "https://i.postimg.cc/FFyhGdqt/ef5669c5-1c4a-4cea-8148-29e1c8b86780.jpg", imageHint: "csr event", category: "CSR" },
-  { title: "CSR Image 23", image: "https://i.postimg.cc/0QmPTbyV/f892a85a-bb76-4442-bc72-50e5770d5116.jpg", imageHint: "csr event", category: "CSR" },
+  { title: "CSR Image 1", image: "https://i.postimg.cc/7P3qXGck/265f829f-1728-4f2c-a861-47b345d929c4.jpg", imageHint: "csr event", category: "CSR" },
+  { title: "CSR Image 2", image: "https://i.postimg.cc/PJjTTTLx/267bc678-c377-4f9d-a749-b034e6a06f4a.jpg", imageHint: "csr event", category: "CSR" },
+  { title: "CSR Image 3", image: "https://i.postimg.cc/LsGmQz2L/3fadcf5f-2d9a-483c-accb-d9f11569b48d.jpg", imageHint: "csr event", category: "CSR" },
+  { title: "CSR Image 4", image: "https://i.postimg.cc/HLFTvQd2/406e4000-84bc-4672-8836-f3b3470cc425.jpg", imageHint: "csr event", category: "CSR" },
+  { title: "CSR Image 5", image: "https://i.postimg.cc/br98vWby/4c9f3eb8-ba5d-4a5c-bebb-cb1d1b54eefa.jpg", imageHint: "csr event", category: "CSR" },
+  { title: "CSR Image 6", image: "https://i.postimg.cc/wBn94hgt/4fe92418-0b18-4704-9fba-e624a640fcd9.jpg", imageHint: "csr event", category: "CSR" },
+  { title: "CSR Image 7", image: "https://i.postimg.cc/MTRqCvpR/5b774a75-d9d9-40f1-a21f-f2f1bcfe0054.jpg", imageHint: "csr event", category: "CSR" },
+  { title: "CSR Image 8", image: "https://i.postimg.cc/d1dwbLV6/73b05eef-0ae0-478e-9c28-79f34d005014.jpg", imageHint: "csr event", category: "CSR" },
+  { title: "CSR Image 9", image: "https://i.postimg.cc/63RtkypZ/8917224b-2c07-41cb-b635-0a141fa34705.jpg", imageHint: "csr event", category: "CSR" },
+  { title: "CSR Image 10", image: "https://i.postimg.cc/RhL90yfM/895ce9f2-0083-48ea-9e3b-24ca9eeb3e99.jpg", imageHint: "csr event", category: "CSR" },
+  { title: "CSR Image 11", image: "https://i.postimg.cc/Kj2xxxKS/8c976782-4453-4cb6-983a-b1ff1da9a494.jpg", imageHint: "csr event", category: "CSR" },
+  { title: "CSR Image 12", image: "https://i.postimg.cc/Ss8kBJxZ/9feb78c0-685f-4c0f-8256-3051bdedded0.jpg", imageHint: "csr event", category: "CSR" },
+  { title: "CSR Image 13", image: "https://i.postimg.cc/T1JGPFmy/ad6068e2-838d-46a5-9685-1cba5febb132.jpg", imageHint: "csr event", category: "CSR" },
+  { title: "CSR Image 14", image: "https://i.postimg.cc/0jsPPPzH/c567c43f-bd8c-4388-9c8f-b5a0b1279afa.jpg", imageHint: "csr event", category: "CSR" },
+  { title: "CSR Image 15", image: "https://i.postimg.cc/05Y9ZM3R/c9bd24fa-1c56-48ef-a02d-78dadd7ac712.jpg", imageHint: "csr event", category: "CSR" },
+  { title: "CSR Image 16", image: "https://i.postimg.cc/hjxckftT/d1d3fc82-7abf-4fae-bacc-07cef2abb600.jpg", imageHint: "csr event", category: "CSR" },
+  { title: "CSR Image 17", image: "https://i.postimg.cc/Xqb444Zn/d44ccf7f-e993-4987-b762-a5984259c435.jpg", imageHint: "csr event", category: "CSR" },
+  { title: "CSR Image 18", image: "https://i.postimg.cc/MHmxGNR9/d4bdfa44-626d-4901-a500-f832fba1ed21.jpg", imageHint: "csr event", category: "CSR" },
+  { title: "CSR Image 19", image: "https://i.postimg.cc/FFyhGdqt/ef5669c5-1c4a-4cea-8148-29e1c8b86780.jpg", imageHint: "csr event", category: "CSR" },
+  { title: "CSR Image 20", image: "https://i.postimg.cc/0QmPTbyV/f892a85a-bb76-4442-bc72-50e5770d5116.jpg", imageHint: "csr event", category: "CSR" },
 ];
 
-const categories = ["All", "Store", "CSR", "Happy Clients", "Events", "Star Showcase"];
+const categories = Array.from(new Set(allImages.map(img => img.category)));
+
+function GalleryImage({ image }: { image: { title: string; image: string, imageHint: string } }) {
+  return (
+    <div className="overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 ease-in-out">
+      <Image
+        alt={image.title}
+        className="aspect-[3/4] w-full object-cover"
+        height={600}
+        src={image.image}
+        width={450}
+        data-ai-hint={image.imageHint}
+      />
+    </div>
+  );
+}
 
 export function ImpactSection() {
-  const [activeTab, setActiveTab] = useState("All");
+  const [activeTab, setActiveTab] = useState(categories[0]);
 
-  const filteredImages = activeTab === "All"
-    ? allImages
-    : allImages.filter((image) => image.category === activeTab);
-    
-  if (activeTab === 'Store') {
-    filteredImages.reverse();
-  }
+  const filteredImages = allImages.filter(image => image.category === activeTab);
 
   return (
-    <section id="gallery" className="w-full py-12 md:py-24 lg:py-32 bg-secondary/50">
+    <section id="gallery" className="w-full py-12 md:py-24 lg:py-32">
       <div className="container px-4 md:px-6">
         <div className="flex flex-col items-center justify-center space-y-4 text-center mb-12">
-          <div className="space-y-2">
-            <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl font-headline text-primary">Gallery</h2>
-            <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed font-body">
-              See Craft Mantra in action.
-            </p>
-          </div>
+          <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl font-headline text-primary">
+            Our Work in Pictures
+          </h2>
+          <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed font-body">
+            Browse through our gallery to see our store, events, star showcases, CSR activities, and happy clients.
+          </p>
         </div>
-        
-        <Tabs value={activeTab} onValueChange={setActiveTab} className="w-full max-w-lg mx-auto mb-8">
-          <TabsList className="grid h-auto grid-cols-3 sm:grid-cols-6">
+
+        <div className="w-full">
+          <Tabs value={activeTab} onValueChange={setActiveTab} className="w-full">
+            <TabsList className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 h-auto flex-wrap">
+              {categories.map((category) => (
+                <TabsTrigger key={category} value={category} className="font-headline text-md md:text-lg whitespace-normal">
+                  {category}
+                </TabsTrigger>
+              ))}
+            </TabsList>
             {categories.map((category) => (
-              <TabsTrigger key={category} value={category}>{category}</TabsTrigger>
-            ))}
-          </TabsList>
-        </Tabs>
-        
-        <Carousel
-          opts={{
-            align: "start",
-            loop: false,
-          }}
-          className="w-full max-w-4xl mx-auto"
-        >
-          <CarouselContent>
-            {filteredImages.map((event, index) => (
-              <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/3">
-                <div className="p-1 group">
-                  <Card>
-                    <CardContent className="flex aspect-square items-center justify-center p-0 relative overflow-hidden rounded-lg">
-                       <Image
-                          src={event.image}
-                          alt={event.title}
-                          fill
-                          className="object-cover transition-transform duration-300 group-hover:scale-105"
-                          data-ai-hint={event.imageHint}
-                        />
-                    </CardContent>
-                  </Card>
-                </div>
-              </CarouselItem>
-            ))}
-          </CarouselContent>
-          {filteredImages.length > 3 && (
-            <>
-              <CarouselPrevious />
-              <CarouselNext />
-            </>
-          )}
-        </Carousel>
+                <TabsContent key={category} value={category}>
+                  <Carousel
+                    opts={{
+                      align: "start",
+                      loop: true,
+                    }}
+                    className="w-full mt-8"
+                  >
+                    <CarouselContent>
+                      {filteredImages.map((image, index) => (
+                        <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/3">
+                          <div className="p-2">
+                             <GalleryImage image={image} />
+                          </div>
+                        </CarouselItem>
+                      ))}
+                    </CarouselContent>
+                    <CarouselPrevious className="absolute left-2 top-1/2 -translate-y-1/2 z-10" />
+                    <CarouselNext className="absolute right-2 top-1/2 -translate-y-1/2 z-10" />
+                  </Carousel>
+                </TabsContent>
+              ))}
+          </Tabs>
+        </div>
+
       </div>
     </section>
   );
 }
-
-    
