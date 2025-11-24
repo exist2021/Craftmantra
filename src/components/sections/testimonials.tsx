@@ -85,7 +85,7 @@ export function TestimonialsSection() {
         <Carousel
           opts={{
             align: "start",
-            loop: true,
+            loop: false,
           }}
           className="w-full max-w-4xl mx-auto"
         >
