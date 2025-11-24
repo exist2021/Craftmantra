@@ -110,7 +110,6 @@ const allImages = [
   { title: "Star Showcase Image 4", image: "https://i.postimg.cc/FHb8c3nG/17d70411-c2ef-4ed1-9077-810b3ee6aa95.jpg", imageHint: "star showcase", category: "Star Showcase" },
   { title: "Star Showcase Image 5", image: "https://i.postimg.cc/VNmyHDbj/1d62e8eb-0759-42a4-b194-cdf2d142046c.jpg", imageHint: "star showcase", category: "Star Showcase" },
   { title: "Star Showcase Image 6", image: "https://i.postimg.cc/L8kwfL0J/23f5d6dd-79f0-4ba1-b9a4-0c85cda1981e.jpg", imageHint: "star showcase", category: "Star Showcase" },
-  { title: "Star Showcase Image 7", image: "https://i.postimg.cc/BnfRXMpd/25b4ffd6-9de1-4b9b-b7bc-4b5d8c4a333d.jpg", imageHint: "star showcase", category: "Star Showcase" },
   { title: "Star Showcase Image 8", image: "https://i.postimg.cc/tCxLqL3L/25f0073a-6d15-462b-b43c-c8ee4f09c124.jpg", imageHint: "star showcase", category: "Star Showcase" },
   { title: "Star Showcase Image 9", image: "https://i.postimg.cc/L61r9rkS/2ac929a5-5237-440d-89fb-454e7ec1c210.jpg", imageHint: "star showcase", category: "Star Showcase" },
   { title: "Star Showcase Image 10", image: "https://i.postimg.cc/zv96wjrw/4cc79356-cef1-48db-9c2f-1f4d363c50d5.jpg", imageHint: "star showcase", category: "Star Showcase" },
