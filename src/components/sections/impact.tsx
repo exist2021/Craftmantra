@@ -11,6 +11,7 @@ import {
 } from "@/components/ui/carousel";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { useState } from 'react';
+import { cn } from '@/lib/utils';
 
 const allImages = [
   {
@@ -143,7 +144,6 @@ const allImages = [
   { title: "Events Image 5", image: "https://i.postimg.cc/15vJZBTG/2fc2c0be-e56c-46db-82b4-f6be4a99ea56.jpg", imageHint: "event image", category: "Events" },
   { title: "Events Image 6", image: "https://i.postimg.cc/br3HpY6v/3a1f473e-2598-4abf-a157-ac77d14ae9f5.jpg", imageHint: "event image", category: "Events" },
   { title: "Events Image 7", image: "https://i.postimg.cc/k4NvYvKN/3f3ec2ec-3f78-4709-8e65-1d5ce3431a03.jpg", imageHint: "event image", category: "Events" },
-  { title: "Events Image 8", image: "https://i.postimg.cc/vmVzfsBs/48e83049-87c0-4d78-be24-f40060aa97ca.jpg", imageHint: "event image", category: "Events" },
   { title: "Events Image 9", image: "https://i.postimg.cc/yxVXM3yw/4e98e1f8-2883-4a61-ad03-41b107b475bd.jpg", imageHint: "event image", category: "Events" },
   { title: "Events Image 10", image: "https://i.postimg.cc/Y9NzDzYV/54743744-656f-4a42-beb8-edd5789cb68a.jpg", imageHint: "event image", category: "Events" },
   { title: "Events Image 11", image: "https://i.postimg.cc/hj81Z1T6/6a6612d4-f1ff-4d90-bcba-870306b275c4.jpg", imageHint: "event image", category: "Events" },
@@ -165,14 +165,12 @@ const allImages = [
   { title: "Happy Clients Image 5", image: "https://i.postimg.cc/SRBQXCtS/8e3b7dfa-c194-4c4d-8488-dbe290b8f20d.jpg", imageHint: "happy client", category: "Happy Clients" },
   { title: "Happy Clients Image 6", image: "https://i.postimg.cc/wMCxtLbv/b16c9974-9006-4c7d-867d-1221b5cfadd3.jpg", imageHint: "happy client", category: "Happy Clients" },
   { title: "Happy Clients Image 7", image: "https://i.postimg.cc/Y0524Yy7/b995583a-1c18-47dd-8731-e46f1928a566.jpg", imageHint: "happy client", category: "Happy Clients" },
-  { title: "CSR Image 1", image: "https://i.postimg.cc/7P3qXGck/265f829f-1728-4f2c-a861-47b345d929c4.jpg", imageHint: "csr event", category: "CSR" },
-  { title: "CSR Image 2", image: "https://i.postimg.cc/PJjTTTLx/267bc678-c377-4f9d-a749-b034e6a06f4a.jpg", imageHint: "csr event", category: "CSR" },
-  { title: "CSR Image 3", image: "https://i.postimg.cc/LsGmQz2L/3fadcf5f-2d9a-483c-accb-d9f11569b48d.jpg", imageHint: "csr event", category: "CSR" },
-  { title: "CSR Image 4", image: "https://i.postimg.cc/HLFTvQd2/406e4000-84bc-4672-8836-f3b3470cc425.jpg", imageHint: "csr event", category: "CSR" },
-  { title: "CSR Image 5", image: "https://i.postimg.cc/br98vWby/4c9f3eb8-ba5d-4a5c-bebb-cb1d1b54eefa.jpg", imageHint: "csr event", category: "CSR" },
-  { title: "CSR Image 6", image: "https://i.postimg.cc/wBn94hgt/4fe92418-0b18-4704-9fba-e624a640fcd9.jpg", imageHint: "csr event", category: "CSR" },
-  { title: "CSR Image 7", image: "https://i.postimg.cc/d1dwbLV6/73b05eef-0ae0-478e-9c28-79f34d005014.jpg", imageHint: "csr event", category: "CSR" },
-  { title: "CSR Image 8", image: "https://i.postimg.cc/63RtkypZ/8917224b-2c07-41cb-b635-0a141fa34705.jpg", imageHint: "csr event", category: "CSR" },
+  { title: "CSR Image 2", image: "https://i.postimg.cc/7P3qXGck/265f829f-1728-4f2c-a861-47b345d929c4.jpg", imageHint: "csr event", category: "CSR" },
+  { title: "CSR Image 3", image: "https://i.postimg.cc/PJjTTTLx/267bc678-c377-4f9d-a749-b034e6a06f4a.jpg", imageHint: "csr event", category: "CSR" },
+  { title: "CSR Image 4", image: "https://i.postimg.cc/LsGmQz2L/3fadcf5f-2d9a-483c-accb-d9f11569b48d.jpg", imageHint: "csr event", category: "CSR" },
+  { title: "CSR Image 5", image: "https://i.postimg.cc/HLFTvQd2/406e4000-84bc-4672-8836-f3b3470cc425.jpg", imageHint: "csr event", category: "CSR" },
+  { title: "CSR Image 6", image: "https://i.postimg.cc/br98vWby/4c9f3eb8-ba5d-4a5c-bebb-cb1d1b54eefa.jpg", imageHint: "csr event", category: "CSR" },
+  { title: "CSR Image 7", image: "https://i.postimg.cc/wBn94hgt/4fe92418-0b18-4704-9fba-e624a640fcd9.jpg", imageHint: "csr event", category: "CSR" },
   { title: "CSR Image 9", image: "https://i.postimg.cc/RhL90yfM/895ce9f2-0083-48ea-9e3b-24ca9eeb3e99.jpg", imageHint: "csr event", category: "CSR" },
   { title: "CSR Image 10", image: "https://i.postimg.cc/Kj2xxxKS/8c976782-4453-4cb6-983a-b1ff1da9a494.jpg", imageHint: "csr event", category: "CSR" },
   { title: "CSR Image 11", image: "https://i.postimg.cc/Ss8kBJxZ/9feb78c0-685f-4c0f-8256-3051bdedded0.jpg", imageHint: "csr event", category: "CSR" },
@@ -206,10 +204,6 @@ function GalleryImage({ image }: { image: { title: string; image: string, imageH
 export function ImpactSection() {
   const [activeTab, setActiveTab] = useState(allCategories[0]);
 
-  const filteredImages = activeTab === "All"
-    ? allImages 
-    : allImages.filter(image => image.category === activeTab);
-
   return (
     <section id="gallery" className="w-full py-12 md:py-24 lg:py-32">
       <div className="container px-4 md:px-6">
@@ -224,35 +218,37 @@ export function ImpactSection() {
 
         <div className="w-full">
           <Tabs value={activeTab} onValueChange={setActiveTab} className="w-full">
-            <TabsList className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-3 h-auto flex-wrap">
+            <TabsList className="grid grid-cols-3 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-6 h-auto flex-wrap">
               {allCategories.map((category) => (
                 <TabsTrigger key={category} value={category} className="font-headline text-md md:text-lg whitespace-normal">
                   {category}
                 </TabsTrigger>
               ))}
             </TabsList>
-
-            <TabsContent value={activeTab} forceMount>
-               <Carousel
-                opts={{
-                  align: "start",
-                  loop: false,
-                }}
-                className="w-full mt-8"
-              >
-                <CarouselContent>
-                  {filteredImages.map((image, index) => (
-                    <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/3">
-                      <div className="p-2">
-                          <GalleryImage image={image} />
-                      </div>
-                    </CarouselItem>
-                  ))}
-                </CarouselContent>
-                <CarouselPrevious className="absolute left-2 top-1/2 -translate-y-1/2 z-10" />
-                <CarouselNext className="absolute right-2 top-1/2 -translate-y-1/2 z-10" />
-              </Carousel>
-            </TabsContent>
+            
+            {allCategories.map((category) => (
+              <TabsContent key={category} value={category} forceMount={activeTab === category} className={cn(activeTab === category ? 'block' : 'hidden')}>
+                 <Carousel
+                  opts={{
+                    align: "start",
+                    loop: false,
+                  }}
+                  className="w-full mt-8"
+                >
+                  <CarouselContent>
+                    {(category === "All" ? allImages : allImages.filter(image => image.category === category)).map((image, index) => (
+                      <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/3">
+                        <div className="p-2">
+                            <GalleryImage image={image} />
+                        </div>
+                      </CarouselItem>
+                    ))}
+                  </CarouselContent>
+                  <CarouselPrevious className="absolute left-2 top-1/2 -translate-y-1/2 z-10" />
+                  <CarouselNext className="absolute right-2 top-1/2 -translate-y-1/2 z-10" />
+                </Carousel>
+              </TabsContent>
+            ))}
           </Tabs>
         </div>
 
