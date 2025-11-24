@@ -191,7 +191,7 @@ export function ImpactSection() {
         </div>
         
         <Tabs value={activeTab} onValueChange={setActiveTab} className="w-full max-w-lg mx-auto mb-8">
-          <TabsList className="grid grid-cols-6">
+          <TabsList className="grid h-auto grid-cols-3 sm:grid-cols-6">
             {categories.map((category) => (
               <TabsTrigger key={category} value={category}>{category}</TabsTrigger>
             ))}
