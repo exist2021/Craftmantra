@@ -151,7 +151,7 @@ const allImages = [
   { title: "Events Image 13", image: "https://i.postimg.cc/cCsMptB9/85043572-fb62-4ebd-b928-c5c06cbaae07.jpg", imageHint: "event image", category: "Events" },
   { title: "Events Image 14", image: "https://i.postimg.cc/Wz26Bq7T/8ed1979a-c12b-4a4d-97d2-779c7e38af8b.jpg", imageHint: "event image", category: "Events" },
   { title: "Events Image 15", image: "https://i.postimg.cc/L5HBcgVR/b961a999-39c0-4860-a26f-995ad464fd0a.jpg", imageHint: "event image", category: "Events" },
-  { title: "Events Image 16", image: "https://i.postimg.cc/QC0khN6x/b9699b17-38ec-428a-adae-33fcf215a815.jpg", imageHint: "event image", category: "Events" },
+  { title: "Events Image 16", image: "https://i.postimg.cc/G35QxDhQ/ba5b2089-_8ec-428a-adae-33fcf215a815.jpg", imageHint: "event image", category: "Events" },
   { title: "Events Image 17", image: "https://i.postimg.cc/wj3FxJYx/c23fa55b-ad64-45fc-af48-905b7ed3bc25.jpg", imageHint: "event image", category: "Events" },
   { title: "Events Image 18", image: "https://i.postimg.cc/yxvXs6fh/ca5d945e-0032-4239-b5ee-e5565ce4d9cc.jpg", imageHint: "event image", category: "Events" },
   { title: "Events Image 19", image: "https://i.postimg.cc/tgx5WjT4/dd173c18-efcc-49f6-8a6c-3ad7794b56dc.jpg", imageHint: "event image", category: "Events" },
@@ -161,11 +161,10 @@ const allImages = [
   { title: "Happy Clients Image 1", image: "https://i.postimg.cc/JnY908YF/065f5031-3775-44bc-a5aa-b16edd1370da.jpg", imageHint: "happy client", category: "Happy Clients" },
   { title: "Happy Clients Image 2", image: "https://i.postimg.cc/L5HBcgVR/b961a999-39c0-4860-a26f-995ad464fd0a.jpg", imageHint: "happy client", category: "Happy Clients" },
   { title: "Happy Clients Image 3", image: "https://i.postimg.cc/fWj88Dv3/IMG-7373.jpg", imageHint: "happy client", category: "Happy Clients" },
-  { title: "Happy Clients Image 4", image: "https://i.postimg.cc/05FyH15t/31fcea1a-f5bc-4db3-aa2a-7fd63ab40072.jpg", imageHint: "happy client", category: "Happy Clients" },
+  { title: "Happy Clients Image 4", image: "https://i.postimg.cc/tYqhmB6b/cf743d14-_f5bc-4db3-aa2a-7fd63ab40072.jpg", imageHint: "happy client", category: "Happy Clients" },
   { title: "Happy Clients Image 5", image: "https://i.postimg.cc/SRBQXCtS/8e3b7dfa-c194-4c4d-8488-dbe290b8f20d.jpg", imageHint: "happy client", category: "Happy Clients" },
   { title: "Happy Clients Image 6", image: "https://i.postimg.cc/wMCxtLbv/b16c9974-9006-4c7d-867d-1221b5cfadd3.jpg", imageHint: "happy client", category: "Happy Clients" },
   { title: "Happy Clients Image 7", image: "https://i.postimg.cc/Y0524Yy7/b995583a-1c18-47dd-8731-e46f1928a566.jpg", imageHint: "happy client", category: "Happy Clients" },
-  { title: "CSR Image 1", image: "https://i.postimg.cc/NFcBBBKZ/167d760d-e162-477b-943b-237cf352bce1.jpg", imageHint: "csr event", category: "CSR" },
   { title: "CSR Image 2", image: "https://i.postimg.cc/7P3qXGck/265f829f-1728-4f2c-a861-47b345d929c4.jpg", imageHint: "csr event", category: "CSR" },
   { title: "CSR Image 3", image: "https://i.postimg.cc/PJjTTTLx/267bc678-c377-4f9d-a749-b034e6a06f4a.jpg", imageHint: "csr event", category: "CSR" },
   { title: "CSR Image 4", image: "https://i.postimg.cc/LsGmQz2L/3fadcf5f-2d9a-483c-accb-d9f11569b48d.jpg", imageHint: "csr event", category: "CSR" },
@@ -260,3 +259,5 @@ export function ImpactSection() {
     </section>
   );
 }
+
+    
