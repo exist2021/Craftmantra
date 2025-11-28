@@ -1,9 +1,8 @@
-
 "use client";
 
 import Link from "next/link";
 import { Logo } from "./logo";
-import { Sheet, SheetContent, SheetTrigger } from "./ui/sheet";
+import { Sheet, SheetContent, SheetTrigger, SheetTitle, SheetDescription } from "./ui/sheet";
 import { Button } from "./ui/button";
 import { Menu } from "lucide-react";
 import { useState } from "react";
@@ -47,6 +46,8 @@ export function SiteHeader() {
                 </Button>
               </SheetTrigger>
               <SheetContent side="right">
+                <SheetTitle className="sr-only">Mobile Menu</SheetTitle>
+                <SheetDescription className="sr-only">Navigation menu for mobile devices</SheetDescription>
                 <div className="p-4">
                   <Logo />
                    <div className="flex items-center space-x-2 mt-2">
