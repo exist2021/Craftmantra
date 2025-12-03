@@ -6,12 +6,12 @@ import { Logo } from "./logo";
 import { Button } from "./ui/button";
 import { Menu, X } from "lucide-react";
 import { Badge } from "./ui/badge";
-import { cn } from "@/lib/utils";
 import {
   Collapsible,
   CollapsibleContent,
   CollapsibleTrigger,
 } from "@/components/ui/collapsible";
+import { cn } from "@/lib/utils";
 
 const navLinks = [
   { href: "#about", label: "About" },
@@ -65,9 +65,10 @@ export function SiteHeader() {
             </div>
           </div>
         </div>
-        <CollapsibleContent className="md:hidden">
+        <CollapsibleContent>
           <div
             className={cn(
+              "md:hidden",
               "fixed inset-0 top-20 z-40 bg-background",
               "animate-in fade-in-20 slide-in-from-top-5"
             )}
