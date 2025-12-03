@@ -2,11 +2,17 @@
 
 import Link from "next/link";
 import { Logo } from "./logo";
-import { Sheet, SheetContent, SheetTrigger, SheetTitle, SheetDescription } from "./ui/sheet";
+import { Sheet, SheetContent, SheetTrigger, SheetClose } from "./ui/sheet";
 import { Button } from "./ui/button";
 import { Menu } from "lucide-react";
-import { useState } from "react";
 import { Badge } from "./ui/badge";
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from "@/components/ui/accordion"
+
 
 const navLinks = [
   { href: "#about", label: "About" },
@@ -17,8 +23,6 @@ const navLinks = [
 ];
 
 export function SiteHeader() {
-  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-
   return (
     <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container flex h-20 max-w-screen-2xl items-center">
@@ -38,15 +42,13 @@ export function SiteHeader() {
             ))}
           </nav>
           <div className="md:hidden">
-            <Sheet open={isMobileMenuOpen} onOpenChange={setIsMobileMenuOpen}>
+            <Sheet>
               <SheetTrigger asChild>
                 <Button variant="ghost" size="icon" type="button" aria-label="Toggle mobile menu">
                   <Menu className="h-5 w-5" />
                 </Button>
               </SheetTrigger>
               <SheetContent side="right">
-                <SheetTitle className="sr-only">Mobile Menu</SheetTitle>
-                <SheetDescription className="sr-only">Navigation menu for mobile devices</SheetDescription>
                 <div className="p-4">
                   <Logo />
                    <div className="flex items-center space-x-2 mt-2">
@@ -55,16 +57,16 @@ export function SiteHeader() {
                   </div>
                 </div>
                 <nav className="grid gap-6 text-lg font-medium p-4">
-                {navLinks.map(({ href, label }) => (
-                    <Link
-                      key={label}
-                      href={href}
-                      className="transition-colors text-foreground/60 hover:text-foreground/80 font-headline"
-                      onClick={() => setIsMobileMenuOpen(false)}
-                    >
-                      {label}
-                    </Link>
-                ))}
+                  {navLinks.map(({ href, label }) => (
+                    <SheetClose asChild key={label}>
+                      <Link
+                        href={href}
+                        className="transition-colors text-foreground/60 hover:text-foreground/80 font-headline"
+                      >
+                        {label}
+                      </Link>
+                    </SheetClose>
+                  ))}
                 </nav>
               </SheetContent>
             </Sheet>
