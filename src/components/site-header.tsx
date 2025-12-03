@@ -40,9 +40,8 @@ export function SiteHeader() {
           <div className="md:hidden">
             <Sheet open={isMobileMenuOpen} onOpenChange={setIsMobileMenuOpen}>
               <SheetTrigger asChild>
-                <Button variant="ghost" size="icon">
+                <Button variant="ghost" size="icon" type="button" aria-label="Toggle mobile menu">
                   <Menu className="h-5 w-5" />
-                  <span className="sr-only">Toggle Menu</span>
                 </Button>
               </SheetTrigger>
               <SheetContent side="right">
