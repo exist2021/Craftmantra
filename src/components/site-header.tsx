@@ -1,18 +1,12 @@
 "use client";
 
 import Link from "next/link";
+import { useState } from "react";
 import { Logo } from "./logo";
-import { Sheet, SheetContent, SheetTrigger, SheetClose } from "./ui/sheet";
+import { Sheet, SheetContent, SheetTrigger } from "./ui/sheet";
 import { Button } from "./ui/button";
 import { Menu } from "lucide-react";
 import { Badge } from "./ui/badge";
-import {
-  Accordion,
-  AccordionContent,
-  AccordionItem,
-  AccordionTrigger,
-} from "@/components/ui/accordion"
-
 
 const navLinks = [
   { href: "#about", label: "About" },
@@ -23,6 +17,12 @@ const navLinks = [
 ];
 
 export function SiteHeader() {
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+
+  const handleLinkClick = () => {
+    setIsMobileMenuOpen(false);
+  };
+
   return (
     <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container flex h-20 max-w-screen-2xl items-center">
@@ -42,7 +42,7 @@ export function SiteHeader() {
             ))}
           </nav>
           <div className="md:hidden">
-            <Sheet>
+            <Sheet open={isMobileMenuOpen} onOpenChange={setIsMobileMenuOpen}>
               <SheetTrigger asChild>
                 <Button variant="ghost" size="icon" type="button" aria-label="Toggle mobile menu">
                   <Menu className="h-5 w-5" />
@@ -58,14 +58,14 @@ export function SiteHeader() {
                 </div>
                 <nav className="grid gap-6 text-lg font-medium p-4">
                   {navLinks.map(({ href, label }) => (
-                    <SheetClose asChild key={label}>
-                      <Link
-                        href={href}
-                        className="transition-colors text-foreground/60 hover:text-foreground/80 font-headline"
-                      >
-                        {label}
-                      </Link>
-                    </SheetClose>
+                    <Link
+                      key={label}
+                      href={href}
+                      onClick={handleLinkClick}
+                      className="transition-colors text-foreground/60 hover:text-foreground/80 font-headline"
+                    >
+                      {label}
+                    </Link>
                   ))}
                 </nav>
               </SheetContent>
