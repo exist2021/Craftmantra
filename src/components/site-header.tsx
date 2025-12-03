@@ -1,3 +1,4 @@
+
 "use client";
 
 import Link from "next/link";
@@ -69,7 +70,7 @@ export function SiteHeader() {
           <div
             className={cn(
               "md:hidden",
-              "fixed inset-0 top-20 z-40 bg-background",
+              "fixed inset-x-0 top-20 z-40 bg-background shadow-lg",
               "animate-in fade-in-20 slide-in-from-top-5"
             )}
           >
