@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { useState } from "react";
 import { Logo } from "./logo";
-import { Sheet, SheetContent, SheetTrigger } from "./ui/sheet";
+import { Sheet, SheetContent, SheetTrigger, SheetClose } from "./ui/sheet";
 import { Button } from "./ui/button";
 import { Menu } from "lucide-react";
 import { Badge } from "./ui/badge";
@@ -58,14 +58,15 @@ export function SiteHeader() {
                 </div>
                 <nav className="grid gap-6 text-lg font-medium p-4">
                   {navLinks.map(({ href, label }) => (
-                    <Link
-                      key={label}
-                      href={href}
-                      onClick={handleLinkClick}
-                      className="transition-colors text-foreground/60 hover:text-foreground/80 font-headline"
-                    >
-                      {label}
-                    </Link>
+                     <SheetClose asChild key={label}>
+                        <Link
+                        href={href}
+                        onClick={handleLinkClick}
+                        className="transition-colors text-foreground/60 hover:text-foreground/80 font-headline"
+                        >
+                        {label}
+                        </Link>
+                    </SheetClose>
                   ))}
                 </nav>
               </SheetContent>
