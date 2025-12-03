@@ -56,14 +56,14 @@ export function SiteHeader() {
                 </div>
                 <nav className="grid gap-6 text-lg font-medium p-4">
                 {navLinks.map(({ href, label }) => (
-                  <Link 
-                    key={label} 
-                    href={href} 
-                    className="transition-colors text-foreground/60 hover:text-foreground/80 font-headline"
-                    onClick={() => setIsMobileMenuOpen(false)}
-                  >
-                    {label}
-                  </Link>
+                    <Link
+                      key={label}
+                      href={href}
+                      className="transition-colors text-foreground/60 hover:text-foreground/80 font-headline"
+                      onClick={() => setIsMobileMenuOpen(false)}
+                    >
+                      {label}
+                    </Link>
                 ))}
                 </nav>
               </SheetContent>

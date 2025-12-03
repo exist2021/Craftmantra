@@ -9,8 +9,9 @@ export function Logo() {
         alt="Craft Mantra Logo"
         width={180}
         height={45}
-        className="h-auto"
+        className="h-auto w-auto max-w-[140px] md:max-w-[180px]"
         priority
+        style={{ height: "auto" }}
       />
     </Link>
   );
