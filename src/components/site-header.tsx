@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { Logo } from "./logo";
 import { Button } from "./ui/button";
 import { Menu, X } from "lucide-react";
@@ -23,18 +23,6 @@ const navLinks = [
 
 export function SiteHeader() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-
-  useEffect(() => {
-    if (isMobileMenuOpen) {
-      document.body.style.overflow = 'hidden';
-    } else {
-      document.body.style.overflow = 'auto';
-    }
-    return () => {
-      document.body.style.overflow = 'auto';
-    };
-  }, [isMobileMenuOpen]);
-
 
   return (
     <Collapsible
@@ -80,7 +68,7 @@ export function SiteHeader() {
         <CollapsibleContent className="md:hidden">
           <div
             className={cn(
-              "fixed inset-0 top-20 z-40 bg-background/80 backdrop-blur-lg",
+              "fixed inset-0 top-20 z-40 bg-background",
               "animate-in fade-in-20 slide-in-from-top-5"
             )}
           >
