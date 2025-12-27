@@ -66,6 +66,11 @@ const testimonials = [
     author: "Vijayalaxmi Uppin, Lawyer",
     location: "",
   },
+  {
+    quote: "Thanks, Renu Jayaram. The gifts were very well received and appreciated. You also did it in a short time. Sometime, I get our students to Craft Mantra. Thanks again. 🙏",
+    author: "Prof Varadesh Hiregange, Gandhian Centre for Philosophical Arts and Sciences (GCPAS)",
+    location: "",
+  },
 ];
 
 
