@@ -13,7 +13,7 @@ import { Quote } from "lucide-react";
 const testimonials = [
   {
     quote: "Thank you Renu and Craft Mantra for the wonderful customised bags. As always u come to you last minute but you never let me down ❤️ truly appreciate for all your support and being there for me and PRISM 😚🥰",
-    author: "PRISM Studio",
+    author: "Sapna Salian Prism Studio",
     location: "Manipal",
   },
   {
