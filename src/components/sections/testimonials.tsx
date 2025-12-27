@@ -52,6 +52,11 @@ const testimonials = [
     location: "",
   },
   {
+    quote: "Hi good morning. The mobile stand was a big hit. Every one says I want one 🥰 In need Five More by Thursday 10th October is it possible ?",
+    author: "Dr Sulatha Bhandary, KMC, Manipal",
+    location: "",
+  },
+  {
     quote: "Thank u for the wonderful momentos, it added more value to my personality, forever grateful 🙏",
     author: "Happy Recipient",
     location: "",
