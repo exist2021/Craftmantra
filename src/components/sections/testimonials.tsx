@@ -58,7 +58,7 @@ const testimonials = [
   },
   {
     quote: "Staff and Speakers loved the momentos… Thank you for your support and inspiring ideas.",
-    author: "Event Organizer",
+    author: "Happy Client",
     location: "",
 },
   {
