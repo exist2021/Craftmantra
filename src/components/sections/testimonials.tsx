@@ -57,11 +57,6 @@ const testimonials = [
     location: "",
   },
   {
-    quote: "Thank u for the wonderful momentos, it added more value to my personality, forever grateful 🙏",
-    author: "Happy Recipient",
-    location: "",
-  },
-  {
     quote: "Staff and Speakers loved the momentos… Thank you for your support and inspiring ideas.",
     author: "Event Organizer",
     location: "",
