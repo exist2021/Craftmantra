@@ -48,7 +48,7 @@ const testimonials = [
   },
   {
     quote: "Yes, everything is going as per plan for our program. The delegates were really happy with the merchandise and their kits. They specially mentioned the bags and the ID cards.",
-    author: "Corporate Client",
+    author: "Dr Aaditya, KMC, Manipal",
     location: "",
   },
   {
