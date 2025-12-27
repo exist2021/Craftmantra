@@ -38,7 +38,7 @@ const testimonials = [
   },
     {
     quote: "Our seniors were thoroughly impressed by the sophistication and personal touch of these gifts. Our teachers, batchmates, and juniors were overwhelmed with the gift. Highly recommend this shop - ‘Craft Mantra’ for anyone seeking refined and bespoke gifting solutions! 😊😊❤️❤️",
-    author: "Sphatika, SDM Ayurveda College, Udupi",
+    author: "Happy Client",
     location: "",
   },
   {
