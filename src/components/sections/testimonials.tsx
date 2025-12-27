@@ -18,7 +18,7 @@ const testimonials = [
   },
   {
     quote: "Hi Aunty. Thank you so much for the key chains. They are really nice. 🙏🥰",
-    author: "Sanika Watve, Vishwas rehab Spech Therapy Center",
+    author: "Sanika Watve, Vishwas Rehab Speech Therapy Center",
     location: "",
   },
   {
