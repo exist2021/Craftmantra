@@ -18,8 +18,8 @@ const testimonials = [
   },
   {
     quote: "Hi Aunty. Thank you so much for the key chains. They are really nice. 🙏🥰",
-    author: "Sanika Watve, Vishwas Rehab Speech Therapy Center",
-    location: "",
+    author: "Rtn Susheel Hadigal",
+    location: "Norway",
   },
   {
     quote: "Completed the payment… Thank you so much Mrs. Renu & team for swift work & superb momentos 🙏. Happy working with you 👍",
