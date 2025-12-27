@@ -63,7 +63,7 @@ const testimonials = [
 },
   {
     quote: "Thanx a ton for the personalised Sash so beautifully designed and also for the crafted office bag…she loved it 👍😘😘",
-    author: "Satisfied Customer",
+    author: "Vijayalaxmi Uppin, Lawyer",
     location: "",
   },
 ];
