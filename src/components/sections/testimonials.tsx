@@ -43,7 +43,7 @@ const testimonials = [
   },
   {
     quote: "We had our Cheluvu 1st year anniversary on 30th August. All of the anniversary gifts for the team were from power members and their businesses. Thank you @Renu Jayaram (Craft Mantra) for…",
-    author: "Cheluvu",
+    author: "Reshma, Cheluvu Naturals",
     location: "",
   },
   {
