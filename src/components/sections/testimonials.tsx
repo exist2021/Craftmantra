@@ -33,12 +33,12 @@ const testimonials = [
   },
   {
     quote: "We had the pleasure of ordering exquisite custom-made pen stands, beautifully integrated with a clock, nameplate, and a meticulously crafted stethoscope design as a tribute to our esteemed seniors. The craftsmanship was impeccable, with every detail thoughtfully executed to perfection...",
-    author: "Medical College Group",
+    author: "S P Harika, SDM Ayurveda College, Udupi",
     location: "",
   },
     {
     quote: "Our seniors were thoroughly impressed by the sophistication and personal touch of these gifts. Our teachers, batchmates, and juniors were overwhelmed with the gift. Highly recommend this shop - ‘Craft Mantra’ for anyone seeking refined and bespoke gifting solutions! 😊😊❤️❤️",
-    author: "Medical College Group",
+    author: "S P Harika, SDM Ayurveda College, Udupi",
     location: "",
   },
   {
