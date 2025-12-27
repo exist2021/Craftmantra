@@ -71,6 +71,11 @@ const testimonials = [
     author: "Prof Varadesh Hiregange, Gandhian Centre for Philosophical Arts and Sciences (GCPAS)",
     location: "",
   },
+  {
+    quote: "Very different and innovative ideas for gifting..we bulk ordered fridge magnets on a coconut shell as return gifts.loved it.they also have a prompt response.will surely recommend.",
+    author: "Aditi Pai, Mumbai",
+    location: "",
+  },
 ];
 
 
