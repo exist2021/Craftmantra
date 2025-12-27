@@ -28,7 +28,7 @@ const testimonials = [
   },
   {
     quote: "Thank u so much mam for helping us at the last moment. Everyone loved the mementoes 💛",
-    author: "Grateful Customer",
+    author: "Rtr Nagendra, Rotaract Manipal Central",
     location: "",
   },
   {
