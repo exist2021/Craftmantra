@@ -76,6 +76,11 @@ const testimonials = [
     author: "Aditi Pai, Mumbai",
     location: "",
   },
+  {
+    quote: "Twenty years of service found a beautiful reflection in the thoughtfully created memento. We at Vatsalya deeply appreciate the care and creativity that went into crafting this keepsake which mirrors the spirit and soul of Vatsalya Clinic. It stands as a lasting reminder of our journey, our values, and the people who helped shape them. With heartfelt gratitude to the craftsmanship of Craftsmantra",
+    author: "Dr. Rajalakshmi, Vatsalya Clinic",
+    location: "Past President, IMA UDUPI KARAVALI Women's wing",
+  },
 ];
 
 
